@@ -1,0 +1,165 @@
+Found a 12 line (56 tokens) duplication in the following files: 
+Starting at line 335 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\views\EmployeeView.java
+Starting at line 77 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\views\CourierView.java
+
+		panel_1.add(btnSearch, "cell 1 14,growy");
+
+		tm = new DefaultTableModel(columnNames, 0) {
+			private static final long serialVersionUID = 1L;
+
+			@Override
+			public Class<?> getColumnClass(int column) {
+				return getValueAt(0, column).getClass();
+			}
+
+			@Override
+			public boolean isCellEditable(int row, int column) {
+=====================================================================
+Found a 11 line (55 tokens) duplication in the following files: 
+Starting at line 78 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\EmployeeModel.java
+Starting at line 25 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\AdministratorModel.java
+
+		 if (ready == true) {
+			 try {
+				 Class.forName("com.mysql.jdbc.Driver").newInstance();
+
+								 
+				 DatabaseUtility dbUtil = new DatabaseUtility();
+				 Connection conn = DriverManager.getConnection(dbUtil.getUrl(), dbUtil.getUsername(), dbUtil.getPass());
+				//**
+				 Statement stm = conn.createStatement();
+				 
+				 int id = 0;
+=====================================================================
+Found a 8 line (55 tokens) duplication in the following files: 
+Starting at line 170 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\EmployeeModel.java
+Starting at line 220 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\EmployeeModel.java
+Starting at line 156 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\CourierModel.java
+
+		if (ready){
+			try {
+				Class.forName("com.mysql.jdbc.Driver").newInstance();
+				DatabaseUtility dbUtil = new DatabaseUtility();
+				Connection conn = DriverManager.getConnection(dbUtil.getUrl(), dbUtil.getUsername(), dbUtil.getPass());
+				Statement stm = conn.createStatement();
+
+				String database[] = { " tracking="," name="," surname="," address="," postalcode="," country="," phone=" }; 
+=====================================================================
+Found a 9 line (54 tokens) duplication in the following files: 
+Starting at line 78 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\EmployeeModel.java
+Starting at line 170 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\EmployeeModel.java
+Starting at line 220 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\EmployeeModel.java
+Starting at line 55 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\CourierModel.java
+Starting at line 156 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\CourierModel.java
+Starting at line 25 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\AdministratorModel.java
+
+		 if (ready == true) {
+			 try {
+				 Class.forName("com.mysql.jdbc.Driver").newInstance();
+
+								 
+				 DatabaseUtility dbUtil = new DatabaseUtility();
+				 Connection conn = DriverManager.getConnection(dbUtil.getUrl(), dbUtil.getUsername(), dbUtil.getPass());
+				//**
+				 Statement stm = conn.createStatement();
+=====================================================================
+Found a 6 line (51 tokens) duplication in the following files: 
+Starting at line 172 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\EmployeeModel.java
+Starting at line 222 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\EmployeeModel.java
+Starting at line 31 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\CustomerModel.java
+Starting at line 158 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\CourierModel.java
+
+				Class.forName("com.mysql.jdbc.Driver").newInstance();
+				DatabaseUtility dbUtil = new DatabaseUtility();
+				Connection conn = DriverManager.getConnection(dbUtil.getUrl(), dbUtil.getUsername(), dbUtil.getPass());
+				Statement stm = conn.createStatement();
+
+				String database[] = { " tracking="," name="," surname="," address="," postalcode="," country="," phone=" }; 
+=====================================================================
+Found a 7 line (50 tokens) duplication in the following files: 
+Starting at line 80 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\EmployeeModel.java
+Starting at line 172 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\EmployeeModel.java
+Starting at line 222 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\EmployeeModel.java
+Starting at line 31 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\CustomerModel.java
+Starting at line 57 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\CourierModel.java
+Starting at line 158 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\CourierModel.java
+Starting at line 27 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\AdministratorModel.java
+Starting at line 90 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\AdministratorModel.java
+
+				 Class.forName("com.mysql.jdbc.Driver").newInstance();
+
+								 
+				 DatabaseUtility dbUtil = new DatabaseUtility();
+				 Connection conn = DriverManager.getConnection(dbUtil.getUrl(), dbUtil.getUsername(), dbUtil.getPass());
+				//**
+				 Statement stm = conn.createStatement();
+=====================================================================
+Found a 9 line (47 tokens) duplication in the following files: 
+Starting at line 384 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\views\EmployeeView.java
+Starting at line 517 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\views\EmployeeView.java
+
+		btnExport.setVisible(false);
+
+		lblSearchWarnig1.setVisible(false);
+		lblSearchWarnig2.setVisible(false);
+		lblSearchWarnig3.setVisible(false);
+		lblSearchWarnig4.setVisible(false);
+		lblSearchWarnig5.setVisible(false);
+		lblSearchWarnig6.setVisible(false);
+		lblSearchWarnig7.setVisible(false);
+=====================================================================
+Found a 6 line (44 tokens) duplication in the following files: 
+Starting at line 79 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\EmployeeModel.java
+Starting at line 171 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\EmployeeModel.java
+Starting at line 221 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\EmployeeModel.java
+Starting at line 27 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\CourierModel.java
+Starting at line 56 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\CourierModel.java
+Starting at line 157 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\CourierModel.java
+Starting at line 26 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\AdministratorModel.java
+
+			 try {
+				 Class.forName("com.mysql.jdbc.Driver").newInstance();
+
+								 
+				 DatabaseUtility dbUtil = new DatabaseUtility();
+				 Connection conn = DriverManager.getConnection(dbUtil.getUrl(), dbUtil.getUsername(), dbUtil.getPass());
+=====================================================================
+Found a 4 line (42 tokens) duplication in the following files: 
+Starting at line 31 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\CustomerModel.java
+Starting at line 28 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\CourierModel.java
+Starting at line 90 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\models\AdministratorModel.java
+
+				Class.forName("com.mysql.jdbc.Driver").newInstance();
+								
+				DatabaseUtility dbUtil = new DatabaseUtility();
+				Connection conn = DriverManager.getConnection(dbUtil.getUrl(), dbUtil.getUsername(), dbUtil.getPass());
+=====================================================================
+Found a 5 line (35 tokens) duplication in the following files: 
+Starting at line 324 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\additional\TableColumnAdjuster.java
+Starting at line 336 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\additional\TableColumnAdjuster.java
+
+		Action action = new ColumnAction(isSelectedColumn, isAdjust);
+		KeyStroke ks = KeyStroke.getKeyStroke( keyStroke );
+		table.getInputMap().put(ks, key);
+		table.getActionMap().put(key, action);
+	}
+=====================================================================
+Found a 6 line (28 tokens) duplication in the following files: 
+Starting at line 60 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\additional\TableColumnAdjuster.java
+Starting at line 170 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\additional\TableColumnAdjuster.java
+
+	public void adjustColumns()
+	{
+		TableColumnModel tcm = table.getColumnModel();
+
+		for (int i = 0; i < tcm.getColumnCount(); i++)
+		{
+=====================================================================
+Found a 4 line (28 tokens) duplication in the following files: 
+Starting at line 126 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\additional\MainView.java
+Starting at line 132 of C:\Users\ThinkPad\Desktop\Μηχανική Λογισμικού\Transfers New\Transfers\src\additional\MainView.java
+
+				if (login.getRole().equals("Customer")) {
+					card.show(frame.getContentPane(), logcont.changePanel());
+					menuBar.setVisible(true);
+				} else {

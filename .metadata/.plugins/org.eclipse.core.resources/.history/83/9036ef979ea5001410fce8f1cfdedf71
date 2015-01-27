@@ -1,0 +1,733 @@
+package views;
+
+import javax.swing.JPanel;
+import javax.swing.BoxLayout;
+import javax.swing.JTabbedPane;
+import net.miginfocom.swing.MigLayout;
+import javax.swing.JLabel;
+import javax.swing.JFormattedTextField;
+import javax.swing.JCheckBox;
+import javax.swing.JTextArea;
+import javax.swing.JButton;
+import javax.swing.JScrollPane;
+import javax.swing.ScrollPaneConstants;
+import java.awt.Font;
+import java.awt.event.ActionListener;
+import java.awt.Color;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+import additional.TableColumnAdjuster;
+import java.awt.event.ActionEvent;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+
+public class EmployeeView extends JPanel {
+
+	private static final long serialVersionUID = 1;
+
+	private JTabbedPane tabbedPane;
+
+	private JFormattedTextField txtName;
+	private JFormattedTextField txtSurname;
+	private JFormattedTextField txtStreet;
+	private JFormattedTextField txtPostCode;
+	private JFormattedTextField txtCountry;
+	private JFormattedTextField txtPhone;
+	private JFormattedTextField txtTracking;
+	private JFormattedTextField txtNumber;
+	private JFormattedTextField txtRegion;
+	private JLabel lblCity;
+	private JFormattedTextField txtCity;
+	private JLabel lblRegion;
+	private JCheckBox chkFragile;
+	private JTextArea txtComments;
+	private JButton btnClear;
+	private JButton btnSubmit;
+	private JLabel lblNewLabel;
+	private JLabel lblNewLabel2;
+	private JLabel lblNewLabel3;
+	private JLabel lblNewLabel4;
+	private JLabel lblNewLabel5;
+	private JLabel lblNewLabel6;
+	private JLabel lblTrackNum;
+
+	private JFormattedTextField formattedTextField1;
+	private JFormattedTextField formattedTextField_11;
+	private JFormattedTextField formattedTextField_21;
+	private JFormattedTextField formattedTextField_31;
+	private JFormattedTextField formattedTextField_41;
+	private JFormattedTextField formattedTextField_51;
+	private JFormattedTextField formattedTextField_61;
+	//private JButton btnClear_1;
+	private JButton btnSearch;
+	private JScrollPane scrollPane_1;
+	private JTable table;
+	private JLabel lblSearchWarnig1;
+	private JLabel lblSearchWarnig2;
+	private JLabel lblSearchWarnig3;
+	private JLabel lblSearchWarnig4;
+	private JLabel lblSearchWarnig5;
+	private JLabel lblSearchWarnig6;
+	private JLabel lblSearchWarnig7;
+	private DefaultTableModel tm;
+	private TableColumnAdjuster tca;
+	private String[] columnNames = { "SurName", "Name", "Street",
+			"Number", "Region", "Postal Code", "City", "Country", "Phone",
+			"Fragile", "Tracking", "Comments", "Status", "Date" };
+	private JButton btnExport;
+	private JLabel lblNotFound;
+	private JButton btnSubmitTable;
+	private JLabel lblSuccessful;
+
+	public EmployeeView() {
+		setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
+
+		tabbedPane = new JTabbedPane(JTabbedPane.TOP);
+		add(tabbedPane);
+
+		/*
+		 * Tab 1
+		 */
+
+		/*
+		 * Tab 2
+		 */
+
+		JPanel panel = new JPanel();
+		tabbedPane.addTab("New Packet", null, panel, null);
+		panel.setLayout(new MigLayout("hidemode 3", "[125.00][100.00,grow][100.00,grow]", "[30]2[]2[30]2[]2[30]2[]2[30]2[]2[30]2[]2[30]2[]2[30]2[]2[125.00,grow][][30]"));
+
+		JLabel lblName = new JLabel("Name");
+
+		txtName = new JFormattedTextField();
+
+		lblNewLabel = new JLabel("Name takes only letters");
+		lblNewLabel.setForeground(Color.RED);
+		lblNewLabel.setVisible(false);
+
+		JLabel lblSurname = new JLabel("Surname");
+
+		txtSurname = new JFormattedTextField();
+
+		lblNewLabel2 = new JLabel("Surname takes only letters");
+		lblNewLabel2.setForeground(Color.RED);
+		lblNewLabel2.setVisible(false);
+
+		JLabel lblAddress = new JLabel("Street");
+
+		txtStreet = new JFormattedTextField();
+
+		JLabel lblPostalCode = new JLabel("Postal Code");
+
+		txtPostCode = new JFormattedTextField();
+
+		lblNewLabel3 = new JLabel("Postal Code must be 5-digit number");
+		lblNewLabel3.setForeground(Color.RED);
+		lblNewLabel3.setVisible(false);
+
+		JLabel lblCountry = new JLabel("Country");
+
+		txtCountry = new JFormattedTextField();
+
+		lblNewLabel4 = new JLabel("Country takes only letters");
+		lblNewLabel4.setForeground(Color.RED);
+		lblNewLabel4.setVisible(false);
+
+		JLabel lblPhoneNumber = new JLabel("Phone Number");
+
+		txtPhone = new JFormattedTextField();
+
+		lblNewLabel5 = new JLabel("Phone must be 10-digit number");
+		lblNewLabel5.setForeground(Color.RED);
+		lblNewLabel5.setVisible(false);
+
+		JLabel lblFragile = new JLabel("Fragile");
+
+		chkFragile = new JCheckBox("");
+
+		lblNewLabel6 = new JLabel("All Fileds except Comments are mandatory");
+		lblNewLabel6.setForeground(Color.RED);
+		lblNewLabel6.setVisible(false);
+
+		JLabel lblComments = new JLabel("Comments");
+
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane
+				.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+		txtComments = new JTextArea();
+		txtComments.setFont(new Font("Monospaced", Font.PLAIN, 11));
+		txtComments.setLineWrap(true);
+		scrollPane.setViewportView(txtComments);
+
+		lblTrackNum = new JLabel("The tracking number for this package is: ");
+		lblTrackNum.setVisible(false);
+
+		txtTracking = new JFormattedTextField();
+		txtTracking.setVisible(false);
+
+		btnClear = new JButton("Clear");
+		btnClear.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+
+		btnSubmit = new JButton("Submit");
+		btnSubmit.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
+
+		JLabel lblNumber = new JLabel("Number");
+
+		txtNumber = new JFormattedTextField();
+
+		lblCity = new JLabel("City");
+
+		txtCity = new JFormattedTextField();
+
+		lblRegion = new JLabel("Region");
+
+		txtRegion = new JFormattedTextField();
+		GroupLayout gl_panel = new GroupLayout(panel);
+		gl_panel.setHorizontalGroup(
+			gl_panel.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(55)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(78)
+							.addComponent(txtName, GroupLayout.PREFERRED_SIZE, 305, GroupLayout.PREFERRED_SIZE))
+						.addComponent(lblName, GroupLayout.PREFERRED_SIZE, 199, GroupLayout.PREFERRED_SIZE)))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(133)
+					.addComponent(lblNewLabel, GroupLayout.PREFERRED_SIZE, 297, GroupLayout.PREFERRED_SIZE))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(47)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addComponent(lblSurname, GroupLayout.PREFERRED_SIZE, 166, GroupLayout.PREFERRED_SIZE)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(86)
+							.addComponent(txtSurname, GroupLayout.PREFERRED_SIZE, 305, GroupLayout.PREFERRED_SIZE))))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(133)
+					.addComponent(lblNewLabel2, GroupLayout.PREFERRED_SIZE, 298, GroupLayout.PREFERRED_SIZE))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(53)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addComponent(lblAddress, GroupLayout.PREFERRED_SIZE, 103, GroupLayout.PREFERRED_SIZE)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(80)
+							.addComponent(txtStreet, GroupLayout.PREFERRED_SIZE, 204, GroupLayout.PREFERRED_SIZE)))
+					.addGap(15)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(59)
+							.addComponent(txtNumber, GroupLayout.PREFERRED_SIZE, 27, GroupLayout.PREFERRED_SIZE))
+						.addComponent(lblNumber, GroupLayout.PREFERRED_SIZE, 96, GroupLayout.PREFERRED_SIZE)))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(59)
+					.addComponent(lblCity, GroupLayout.PREFERRED_SIZE, 55, GroupLayout.PREFERRED_SIZE)
+					.addGap(19)
+					.addComponent(txtCity, GroupLayout.PREFERRED_SIZE, 305, GroupLayout.PREFERRED_SIZE))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(40)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(93)
+							.addComponent(txtPostCode, GroupLayout.PREFERRED_SIZE, 83, GroupLayout.PREFERRED_SIZE))
+						.addComponent(lblPostalCode, GroupLayout.PREFERRED_SIZE, 159, GroupLayout.PREFERRED_SIZE))
+					.addGap(16)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(49)
+							.addComponent(txtRegion, GroupLayout.PREFERRED_SIZE, 157, GroupLayout.PREFERRED_SIZE))
+						.addComponent(lblRegion, GroupLayout.PREFERRED_SIZE, 142, GroupLayout.PREFERRED_SIZE)))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(133)
+					.addComponent(lblNewLabel3, GroupLayout.PREFERRED_SIZE, 303, GroupLayout.PREFERRED_SIZE))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(49)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(84)
+							.addComponent(txtCountry, GroupLayout.PREFERRED_SIZE, 305, GroupLayout.PREFERRED_SIZE))
+						.addComponent(lblCountry, GroupLayout.PREFERRED_SIZE, 175, GroupLayout.PREFERRED_SIZE)))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(133)
+					.addComponent(lblNewLabel4, GroupLayout.PREFERRED_SIZE, 297, GroupLayout.PREFERRED_SIZE))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(33)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(100)
+							.addComponent(txtPhone, GroupLayout.PREFERRED_SIZE, 305, GroupLayout.PREFERRED_SIZE))
+						.addComponent(lblPhoneNumber, GroupLayout.PREFERRED_SIZE, 187, GroupLayout.PREFERRED_SIZE)))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(133)
+					.addComponent(lblNewLabel5, GroupLayout.PREFERRED_SIZE, 309, GroupLayout.PREFERRED_SIZE))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(52)
+					.addComponent(lblFragile, GroupLayout.PREFERRED_SIZE, 76, GroupLayout.PREFERRED_SIZE)
+					.addGap(5)
+					.addComponent(chkFragile))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(133)
+					.addComponent(lblNewLabel6, GroupLayout.PREFERRED_SIZE, 305, GroupLayout.PREFERRED_SIZE))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(43)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addComponent(lblComments, GroupLayout.PREFERRED_SIZE, 100, GroupLayout.PREFERRED_SIZE)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(90)
+							.addComponent(scrollPane, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(133)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(208)
+							.addComponent(txtTracking, GroupLayout.PREFERRED_SIZE, 97, GroupLayout.PREFERRED_SIZE))
+						.addComponent(lblTrackNum, GroupLayout.PREFERRED_SIZE, 258, GroupLayout.PREFERRED_SIZE)))
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(133)
+					.addComponent(btnClear, GroupLayout.PREFERRED_SIZE, 80, GroupLayout.PREFERRED_SIZE)
+					.addGap(138)
+					.addComponent(btnSubmit, GroupLayout.PREFERRED_SIZE, 87, GroupLayout.PREFERRED_SIZE))
+		);
+		gl_panel.setVerticalGroup(
+			gl_panel.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(7)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addComponent(txtName, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(3)
+							.addComponent(lblName)))
+					.addGap(2)
+					.addComponent(lblNewLabel)
+					.addGap(2)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(3)
+							.addComponent(lblSurname))
+						.addComponent(txtSurname, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addGap(2)
+					.addComponent(lblNewLabel2)
+					.addGap(2)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(3)
+							.addComponent(lblAddress))
+						.addComponent(txtStreet, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(txtNumber, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(3)
+							.addComponent(lblNumber)))
+					.addGap(13)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(3)
+							.addComponent(lblCity, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
+						.addComponent(txtCity, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addGap(12)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addComponent(txtPostCode, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(3)
+							.addComponent(lblPostalCode))
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(1)
+							.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+								.addComponent(txtRegion, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+								.addGroup(gl_panel.createSequentialGroup()
+									.addGap(2)
+									.addComponent(lblRegion)))))
+					.addGap(1)
+					.addComponent(lblNewLabel3)
+					.addGap(2)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addComponent(txtCountry, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(3)
+							.addComponent(lblCountry)))
+					.addGap(2)
+					.addComponent(lblNewLabel4)
+					.addGap(2)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addComponent(txtPhone, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(3)
+							.addComponent(lblPhoneNumber)))
+					.addGap(2)
+					.addComponent(lblNewLabel5)
+					.addGap(2)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(4)
+							.addComponent(lblFragile))
+						.addComponent(chkFragile))
+					.addGap(2)
+					.addComponent(lblNewLabel6)
+					.addGap(2)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addComponent(lblComments)
+						.addComponent(scrollPane, GroupLayout.PREFERRED_SIZE, 23, GroupLayout.PREFERRED_SIZE))
+					.addGap(5)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addComponent(txtTracking, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(lblTrackNum, GroupLayout.PREFERRED_SIZE, 20, GroupLayout.PREFERRED_SIZE))
+					.addGap(1)
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addComponent(btnClear)
+						.addComponent(btnSubmit)))
+		);
+		panel.setLayout(gl_panel);
+
+		JPanel panel_1 = new JPanel();
+		tabbedPane.addTab("Search", null, panel_1, null);
+		panel_1.setLayout(new MigLayout("hidemode 3", "[125.00][100.00,grow]",
+				"[30]2[]2[30]2[]2[30]2[]2[30][30]2[]2[30]2[]2[30][][][30]2[]2[grow][]"));
+
+		lblSearchWarnig1 = new JLabel(
+				"Wrong tracking format: must be RBxxxxxxxxxGR");
+		lblSearchWarnig1.setForeground(Color.RED);
+		panel_1.add(lblSearchWarnig1, "cell 1 1");
+
+		JLabel lblName1 = new JLabel("Name");
+		panel_1.add(lblName1, "cell 0 2,alignx center,aligny center");
+
+		formattedTextField1 = new JFormattedTextField();
+		panel_1.add(formattedTextField1, "cell 1 0,grow");
+
+		lblSearchWarnig2 = new JLabel("Name takes only letters");
+		lblSearchWarnig2.setForeground(Color.RED);
+		panel_1.add(lblSearchWarnig2, "cell 1 3");
+
+		JLabel lblSurname1 = new JLabel("Surname");
+		panel_1.add(lblSurname1, "cell 0 4,alignx center,aligny center");
+
+		formattedTextField_11 = new JFormattedTextField();
+		panel_1.add(formattedTextField_11, "cell 1 2,grow");
+
+		lblSearchWarnig3 = new JLabel("Surname takes only letters");
+		lblSearchWarnig3.setForeground(Color.RED);
+		panel_1.add(lblSearchWarnig3, "cell 1 5");
+
+		JLabel lblAddress1 = new JLabel("Address");
+		panel_1.add(lblAddress1, "cell 0 6,alignx center,aligny center");
+
+		formattedTextField_21 = new JFormattedTextField();
+		panel_1.add(formattedTextField_21, "cell 1 4,grow");
+
+		JLabel lblPostalCode1 = new JLabel("Postal Code");
+		panel_1.add(lblPostalCode1, "cell 0 7,alignx center,aligny center");
+
+		formattedTextField_31 = new JFormattedTextField();
+		panel_1.add(formattedTextField_31, "cell 1 6,grow");
+
+		lblSearchWarnig4 = new JLabel("Postal Code must be 5-digit number");
+		lblSearchWarnig4.setForeground(Color.RED);
+		panel_1.add(lblSearchWarnig4, "cell 1 8");
+
+		JLabel lblCountry1 = new JLabel("Country");
+		panel_1.add(lblCountry1, "cell 0 9,alignx center,aligny center");
+
+		formattedTextField_41 = new JFormattedTextField();
+		panel_1.add(formattedTextField_41, "cell 1 7,grow");
+
+		lblSearchWarnig5 = new JLabel("Country takes only letters");
+		lblSearchWarnig5.setForeground(Color.RED);
+		panel_1.add(lblSearchWarnig5, "cell 1 10");
+
+		JLabel lblPhoneNumber1 = new JLabel("Phone Number");
+		panel_1.add(lblPhoneNumber1, "cell 0 11,alignx center,aligny center");
+
+		formattedTextField_51 = new JFormattedTextField();
+		panel_1.add(formattedTextField_51, "cell 1 9,grow");
+
+		JLabel lblTracking = new JLabel("Tracking Number");
+		panel_1.add(lblTracking, "cell 0 0,alignx center,aligny center");
+
+		formattedTextField_61 = new JFormattedTextField();
+		panel_1.add(formattedTextField_61, "cell 1 11,grow");
+
+		lblSearchWarnig6 = new JLabel("Phone must be 10-digit number");
+		lblSearchWarnig6.setForeground(Color.RED);
+		panel_1.add(lblSearchWarnig6, "cell 1 12");
+
+		lblSearchWarnig7 = new JLabel("Fill at least one Field");
+		lblSearchWarnig7.setForeground(Color.RED);
+		panel_1.add(lblSearchWarnig7, "cell 1 13");
+
+		//btnClear_1 = new JButton("Clear");
+		//panel_1.add(btnClear_1, "flowx,cell 1 14,growy");
+
+		btnSearch = new JButton("Search");
+		panel_1.add(btnSearch, "cell 1 14,growy");
+
+		tm = new DefaultTableModel(columnNames, 0) {
+			private static final long serialVersionUID = 1L;
+
+			@Override
+			public Class<?> getColumnClass(int column) {
+				return getValueAt(0, column).getClass();
+			}
+
+			@Override
+			public boolean isCellEditable(int row, int column) {
+				/*
+				 * To Tracking den einai editable column 7
+				 */
+				if (column == 7)
+					return false;
+				else
+					return true;
+			}
+		};
+
+		lblNotFound = new JLabel("Nothing was Found!");
+		lblNotFound.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		lblNotFound.setForeground(Color.BLUE);
+		panel_1.add(lblNotFound, "cell 1 15, h 50");
+		table = new JTable(tm) {
+			private static final long serialVersionUID = 1L;
+
+			public boolean getScrollableTracksViewportWidth() {
+				return getPreferredSize().width < getParent().getWidth();
+			}
+		};
+
+		scrollPane_1 = new JScrollPane(table);
+		panel_1.add(scrollPane_1, "cell 1 16,grow");
+		scrollPane_1.setVisible(false);
+		table.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
+		tca = new TableColumnAdjuster(table);
+
+		btnExport = new JButton("Export");
+		panel_1.add(btnExport, "cell 1 14,growy");
+
+		lblSuccessful = new JLabel("Successful");
+		lblSuccessful.setForeground(Color.BLUE);
+		panel_1.add(lblSuccessful, "flowx,cell 1 17,alignx right,growy");
+
+		btnSubmitTable = new JButton("Submit Changes");
+		panel_1.add(btnSubmitTable, "cell 1 17,alignx right,growy");
+		btnExport.setVisible(false);
+
+		lblSearchWarnig1.setVisible(false);
+		lblSearchWarnig2.setVisible(false);
+		lblSearchWarnig3.setVisible(false);
+		lblSearchWarnig4.setVisible(false);
+		lblSearchWarnig5.setVisible(false);
+		lblSearchWarnig6.setVisible(false);
+		lblSearchWarnig7.setVisible(false);
+		lblSuccessful.setVisible(false);
+		lblNotFound.setVisible(false);
+		btnSubmitTable.setVisible(false);
+
+	}
+
+	/*
+	 * Panel1
+	 */
+
+	public void btnClearListener(ActionListener e) {
+		btnClear.addActionListener(e);
+	}
+
+	public void btnSubmitListener(ActionListener e) {
+		btnSubmit.addActionListener(e);
+	}
+
+	public String[] getTextBoxesPacket() {
+		String[] values = new String[11];
+
+		values[0] = txtSurname.getText();
+		values[1] = txtName.getText();
+		values[2] = txtStreet.getText();
+		values[3] = txtNumber.getText();
+		values[4] = txtRegion.getText();
+		values[5] = txtPostCode.getText();
+		values[6] = txtCity.getText();
+		values[7] = txtCountry.getText();
+		values[8] = txtPhone.getText();
+		if (chkFragile.isSelected())
+			values[9] = "t";
+		else
+			values[9] = "f";
+		values[10] = txtComments.getText();
+
+		return values;
+	}
+
+	public void clearTextBoxesPacket() {
+		txtName.setText("");
+		txtSurname.setText("");
+		txtStreet.setText("");
+		txtCity.setText(null);
+		txtNumber.setText(null);
+		txtRegion.setText(null);
+		txtPostCode.setText("");
+		txtCountry.setText("");
+		txtPhone.setText("");
+		txtTracking.setText("");
+		txtTracking.setVisible(false);
+		chkFragile.setSelected(false);
+		txtComments.setText("");
+		lblNewLabel.setVisible(false);
+		lblNewLabel2.setVisible(false);
+		lblNewLabel3.setVisible(false);
+		lblNewLabel4.setVisible(false);
+		lblNewLabel5.setVisible(false);
+		lblNewLabel6.setVisible(false);
+		lblTrackNum.setVisible(false);
+	}
+
+	public void displayWarningsP1(boolean[] warning) {
+		lblNewLabel.setVisible(warning[0]);
+		lblNewLabel2.setVisible(warning[1]);
+		lblNewLabel3.setVisible(warning[2]);
+		lblNewLabel4.setVisible(warning[3]);
+		lblNewLabel5.setVisible(warning[4]);
+		lblNewLabel6.setVisible(warning[5]);
+		revalidate();
+
+	}
+
+	public void setTrackingNumb(String track) {
+		if (track != null) {
+			txtTracking.setText(track);
+			lblTrackNum.setVisible(true);
+			txtTracking.setVisible(true);
+			revalidate();
+		}
+	}
+
+	/*
+	 * Panel 2
+	 */
+
+	public void btnSearchListener(ActionListener e) {
+		btnSearch.addActionListener(e);
+	}
+
+	//public void btnClear2Listener(ActionListener e) {
+	//	btnClear_1.addActionListener(e);
+	//}
+
+	public void btnExportListener(ActionListener e) {
+		btnExport.addActionListener(e);
+	}
+
+	public void btnSubmitTableListener(ActionListener e) {
+		btnSubmitTable.addActionListener(e);
+	}
+
+	public String[] getTextBoxesSearch() {
+		String[] values = new String[7];
+
+		values[0] = formattedTextField1.getText();
+		values[1] = formattedTextField_11.getText();
+		values[2] = formattedTextField_21.getText();
+		values[3] = formattedTextField_31.getText();
+		values[4] = formattedTextField_41.getText();
+		values[5] = formattedTextField_51.getText();
+		values[6] = formattedTextField_61.getText();
+
+		return values;
+	}
+
+	public void clearTextBoxesSearch() {
+		formattedTextField1.setText("");
+		formattedTextField_11.setText("");
+		formattedTextField_21.setText("");
+		formattedTextField_31.setText("");
+		formattedTextField_41.setText("");
+		formattedTextField_51.setText("");
+		formattedTextField_61.setText("");
+		scrollPane_1.setVisible(false);
+		lblSearchWarnig1.setVisible(false);
+		lblSearchWarnig2.setVisible(false);
+		lblSearchWarnig3.setVisible(false);
+		lblSearchWarnig4.setVisible(false);
+		lblSearchWarnig5.setVisible(false);
+		lblSearchWarnig6.setVisible(false);
+		lblSearchWarnig7.setVisible(false);
+		btnExport.setVisible(false);
+		btnSubmitTable.setVisible(false);
+		lblNotFound.setVisible(false);
+		lblSuccessful.setVisible(false);
+		revalidate();
+	}
+
+	public void updateStatus(Object[] db) {
+		scrollPane_1.setVisible(true);
+		tm.addRow(db);
+		tca.adjustColumns();
+		btnExport.setVisible(true);
+		revalidate();
+	}
+
+	public void displayWarningsP2(boolean[] warning) {
+		lblSearchWarnig1.setVisible(warning[0]);
+		lblSearchWarnig2.setVisible(warning[1]);
+		lblSearchWarnig3.setVisible(warning[2]);
+		lblSearchWarnig4.setVisible(warning[4]);
+		lblSearchWarnig5.setVisible(warning[5]);
+		lblSearchWarnig6.setVisible(warning[6]);
+		lblSearchWarnig7.setVisible(warning[7]);
+		btnSubmitTable.setVisible(false);
+		btnExport.setVisible(false);
+		revalidate();
+	}
+
+	public void clearTable() {
+		scrollPane_1.setVisible(false);
+		btnSubmitTable.setVisible(false);
+		tm.setRowCount(0);
+		lblSuccessful.setVisible(false);
+		revalidate();
+	}
+
+	public DefaultTableModel retTable() {
+		/*
+		 * Dimiourgei adigrafo tou table gia to neo parathiro
+		 */
+		final DefaultTableModel copy = new DefaultTableModel(tm.getRowCount(),
+				0);
+		for (int column = 0; column < tm.getColumnCount(); column++) {
+			copy.addColumn(tm.getColumnName(column));
+			for (int row = 0; row < tm.getRowCount(); row++)
+				copy.setValueAt(tm.getValueAt(row, column), row, column);
+		}
+		return copy;
+	}
+
+	public void clearAll() {
+		tabbedPane.setSelectedIndex(0);
+		lblNotFound.setVisible(false);
+		btnSubmitTable.setVisible(false);
+		lblSuccessful.setVisible(false);
+	}
+
+	public void notFound(boolean ok) {
+		lblNotFound.setVisible(ok);
+		btnExport.setVisible(!ok);
+		btnSubmitTable.setVisible(!ok);
+	}
+
+	public void submmited(boolean ok) {
+		lblSuccessful.setVisible(ok);
+		new Thread(new Runnable() {
+			public void run() {
+				try {
+					Thread.sleep(1500);
+				} catch (InterruptedException ex) {
+					ex.printStackTrace();
+				}
+				lblSuccessful.setVisible(false);
+			}
+		}).start();
+	}
+
+}

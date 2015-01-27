@@ -1,0 +1,18 @@
+package controllers;
+
+import additional.DatabaseUtility;
+import views.LoginView;
+
+public class LoginController {
+	
+	private LoginView LoginView;
+	private DatabaseUtility dbLogin;
+	
+	public LoginController(LoginView LoginView) {
+		this.LoginView = LoginView;
+	}
+	
+	public String changePanel(){
+		return LoginView.getUserType();
+	}
+}

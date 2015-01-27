@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ZMK24KW6EeSunq1b1mebdA">
+  <modelElement href="TransfersSRC.uml#_Xcr2QKW6EeSunq1b1mebdA"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aU1IEKW6EeSunq1b1mebdA" name="javax">
+    <modelElement href="TransfersSRC.uml#_Yjg7cKW6EeSunq1b1mebdA"/>
+    <visualProperties xmi:id="_aU1IEaW6EeSunq1b1mebdA" position="50.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aY5IsKW6EeSunq1b1mebdA" name="org">
+    <modelElement href="TransfersSRC.uml#_YjiJkKW6EeSunq1b1mebdA"/>
+    <visualProperties xmi:id="_aY5IsaW6EeSunq1b1mebdA" position="-115.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aY6W0KW6EeSunq1b1mebdA" name="net">
+    <modelElement href="TransfersSRC.uml#_Yjkl0aW6EeSunq1b1mebdA"/>
+    <visualProperties xmi:id="_aY6W0aW6EeSunq1b1mebdA" position="200.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aY8MAKW6EeSunq1b1mebdA" name="java">
+    <modelElement href="TransfersSRC.uml#_YjlM4KW6EeSunq1b1mebdA"/>
+    <visualProperties xmi:id="_aY8MAaW6EeSunq1b1mebdA" position="350.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aY-BMKW6EeSunq1b1mebdA" name="views">
+    <modelElement href="TransfersSRC.uml#_YjtIsKW6EeSunq1b1mebdA"/>
+    <visualProperties xmi:id="_aY-BMaW6EeSunq1b1mebdA" position="-280.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aY-oQKW6EeSunq1b1mebdA" name="additional">
+    <modelElement href="TransfersSRC.uml#_Yj4H0aW6EeSunq1b1mebdA"/>
+    <visualProperties xmi:id="_aY-oQaW6EeSunq1b1mebdA" position="500.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

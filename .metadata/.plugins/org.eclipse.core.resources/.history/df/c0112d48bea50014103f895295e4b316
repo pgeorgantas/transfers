@@ -1,0 +1,16 @@
+package controllers;
+
+import views.LoginView;
+
+public class loginController {
+	
+	private LoginView login;
+	
+	public loginController(LoginView loginv) {
+		this.login = loginv;
+	}
+	
+	public String changePanel(){
+		return login.getUserType();
+	}
+}

@@ -1,0 +1,110 @@
+package gui;
+
+import javax.swing.JPanel;
+
+import net.miginfocom.swing.MigLayout;
+
+import javax.swing.ImageIcon;
+import javax.swing.JPasswordField;
+import javax.swing.JFormattedTextField;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.Color;
+
+public class LoginView extends JPanel {
+
+	private static final long serialVersionUID = 3;
+
+	private JPasswordField txtPassword;
+	private String txtpwd = null;
+	private String usertypes[] = { "Administrator", "Customer", "Employee",
+			"Courier" };
+	public JButton btnSingIn;
+	private JComboBox<Object> comboBox;
+	private JFormattedTextField txtUsername;
+
+	public LoginView() {
+		setOpaque(false);
+
+		ImageIcon image = new ImageIcon("image/a.png");
+		setLayout(null);
+
+		JLabel lblMetaforikiLogin = new JLabel(image);
+		lblMetaforikiLogin.setBounds(225, 62, 0, 0);
+		lblMetaforikiLogin.setBackground(Color.WHITE);
+		lblMetaforikiLogin.setFont(new Font("Tahoma", Font.BOLD, 15));
+		add(lblMetaforikiLogin);
+
+		
+		txtUsername = new JFormattedTextField();
+		txtUsername.setBounds(125, 130, 200, 40);
+		add(txtUsername);
+
+		txtPassword = new JPasswordField();
+		txtPassword.setBounds(125, 174, 200, 40);
+		add(txtPassword);
+		
+		comboBox = new JComboBox<Object>(usertypes);
+		comboBox.setBounds(125, 86, 200, 40);
+		comboBox.addActionListener(new ActionListener() {
+			
+			public void actionPerformed(ActionEvent e) {
+
+				String s = (String) comboBox.getSelectedItem();
+				if (s.equals("Customer"))
+				{
+					txtUsername.setEnabled(false);
+					txtPassword.setEnabled(false);	
+				}
+				else
+				{
+					txtUsername.setEnabled(true);
+					txtPassword.setEnabled(true);	
+				}
+			}
+		});
+		comboBox.setSelectedIndex(1);
+		add(comboBox);
+
+		btnSingIn = new JButton("Sign In");
+		btnSingIn.setBounds(125, 218, 200, 40);
+		add(btnSingIn);
+		
+		JLabel lblUsername = new JLabel("Username:");
+		lblUsername.setBounds(65, 143, 56, 14);
+		add(lblUsername);
+		
+		JLabel lblPassword = new JLabel("Password:");
+		lblPassword.setBounds(68, 187, 56, 14);
+		add(lblPassword);
+
+	}
+
+	public void btnSingInListener(ActionListener act) {
+		txtpwd = new String(txtPassword.getPassword());
+		btnSingIn.addActionListener(act);
+	}
+
+	public String getUserType() {
+		return comboBox.getSelectedItem().toString();
+	}
+
+	public String getUserName() {
+		return txtUsername.getText();
+	}
+
+	public void clear() {
+		txtUsername.setText("");
+		txtPassword.setText("");
+	}
+
+	public String getPass() {
+		// return pwdPass.getPassword();
+		return txtpwd;
+	}
+}

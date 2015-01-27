@@ -1,0 +1,1558 @@
+src/additional/DatabaseUtility.java:9:	Each class should declare at least one constructor
+src/additional/DatabaseUtility.java:9:	headerCommentRequirement Required
+src/additional/DatabaseUtility.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/additional/DatabaseUtility.java:11:	Private field 'url' could be made final; it is only initialized in the declaration or constructor.
+src/additional/DatabaseUtility.java:11:	fieldCommentRequirement Required
+src/additional/DatabaseUtility.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/additional/DatabaseUtility.java:12:	Private field 'username' could be made final; it is only initialized in the declaration or constructor.
+src/additional/DatabaseUtility.java:12:	fieldCommentRequirement Required
+src/additional/DatabaseUtility.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/additional/DatabaseUtility.java:13:	Private field 'pass' could be made final; it is only initialized in the declaration or constructor.
+src/additional/DatabaseUtility.java:13:	fieldCommentRequirement Required
+src/additional/DatabaseUtility.java:15:	publicMethodCommentRequirement Required
+src/additional/DatabaseUtility.java:19:	publicMethodCommentRequirement Required
+src/additional/DatabaseUtility.java:23:	publicMethodCommentRequirement Required
+src/additional/DatabaseUtility.java:27:	Parameter 'pass' is not assigned and could be declared final
+src/additional/DatabaseUtility.java:27:	Parameter 'role' is not assigned and could be declared final
+src/additional/DatabaseUtility.java:27:	Parameter 'usr' is not assigned and could be declared final
+src/additional/DatabaseUtility.java:27:	publicMethodCommentRequirement Required
+src/additional/DatabaseUtility.java:28:	Ensure that resources like this Connection object are closed after use
+src/additional/DatabaseUtility.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/additional/DatabaseUtility.java:31:	Ensure that resources like this Statement object are closed after use
+src/additional/DatabaseUtility.java:31:	Local variable 'stm' could be declared final
+src/additional/DatabaseUtility.java:31:	Potential violation of Law of Demeter (object not created locally)
+src/additional/DatabaseUtility.java:33:	Local variable 'stmt' could be declared final
+src/additional/DatabaseUtility.java:36:	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+src/additional/DatabaseUtility.java:36:	Avoid variables with short names like rs
+src/additional/DatabaseUtility.java:36:	Ensure that resources like this ResultSet object are closed after use
+src/additional/DatabaseUtility.java:36:	Local variable 'rs' could be declared final
+src/additional/DatabaseUtility.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/additional/DatabaseUtility.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/additional/DatabaseUtility.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/additional/DatabaseUtility.java:38:	Potential violation of Law of Demeter (object not created locally)
+src/additional/DatabaseUtility.java:39:	Potential violation of Law of Demeter (object not created locally)
+src/additional/DatabaseUtility.java:40:	Potential violation of Law of Demeter (object not created locally)
+src/additional/DatabaseUtility.java:41:	Potential violation of Law of Demeter (object not created locally)
+src/additional/DatabaseUtility.java:42:	A method should have only one exit point, and that should be the last statement in the method
+src/additional/DatabaseUtility.java:44:	Potential violation of Law of Demeter (object not created locally)
+src/additional/DatabaseUtility.java:45:	Potential violation of Law of Demeter (object not created locally)
+src/additional/DatabaseUtility.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/additional/DatabaseUtility.java:47:	A method should have only one exit point, and that should be the last statement in the method
+src/additional/DatabaseUtility.java:51:	Avoid printStackTrace(); use a logger call instead.
+src/additional/DatabaseUtility.java:51:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:31:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/additional/MainView.java:31:	Too many fields
+src/additional/MainView.java:31:	headerCommentRequirement Required
+src/additional/MainView.java:33:	fieldCommentRequirement Required
+src/additional/MainView.java:34:	fieldCommentRequirement Required
+src/additional/MainView.java:35:	fieldCommentRequirement Required
+src/additional/MainView.java:36:	fieldCommentRequirement Required
+src/additional/MainView.java:37:	Variables should start with a lowercase character, 'Employee' starts with uppercase character.
+src/additional/MainView.java:37:	fieldCommentRequirement Required
+src/additional/MainView.java:38:	Variables should start with a lowercase character, 'Courier' starts with uppercase character.
+src/additional/MainView.java:38:	fieldCommentRequirement Required
+src/additional/MainView.java:39:	fieldCommentRequirement Required
+src/additional/MainView.java:40:	fieldCommentRequirement Required
+src/additional/MainView.java:42:	fieldCommentRequirement Required
+src/additional/MainView.java:43:	fieldCommentRequirement Required
+src/additional/MainView.java:44:	fieldCommentRequirement Required
+src/additional/MainView.java:45:	fieldCommentRequirement Required
+src/additional/MainView.java:47:	fieldCommentRequirement Required
+src/additional/MainView.java:48:	fieldCommentRequirement Required
+src/additional/MainView.java:49:	fieldCommentRequirement Required
+src/additional/MainView.java:50:	fieldCommentRequirement Required
+src/additional/MainView.java:51:	fieldCommentRequirement Required
+src/additional/MainView.java:53:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/additional/MainView.java:53:	Parameter 'args' is not assigned and could be declared final
+src/additional/MainView.java:53:	publicMethodCommentRequirement Required
+src/additional/MainView.java:57:	Local variable 'screenSize' could be declared final
+src/additional/MainView.java:57:	Potential violation of Law of Demeter (method chain calls)
+src/additional/MainView.java:63:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:67:	Potential violation of Law of Demeter (method chain calls)
+src/additional/MainView.java:67:	Potential violation of Law of Demeter (method chain calls)
+src/additional/MainView.java:67:	Potential violation of Law of Demeter (method chain calls)
+src/additional/MainView.java:67:	Potential violation of Law of Demeter (method chain calls)
+src/additional/MainView.java:67:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:67:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:67:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:68:	Potential violation of Law of Demeter (method chain calls)
+src/additional/MainView.java:68:	Potential violation of Law of Demeter (method chain calls)
+src/additional/MainView.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:73:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:76:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/additional/MainView.java:99:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:100:	Potential violation of Law of Demeter (method chain calls)
+src/additional/MainView.java:100:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/additional/MainView.java:101:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:102:	Potential violation of Law of Demeter (method chain calls)
+src/additional/MainView.java:102:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/additional/MainView.java:103:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/additional/MainView.java:105:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:106:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:110:	Potential violation of Law of Demeter (object not created locally)
+src/additional/MainView.java:113:	Avoid variables with short names like e
+src/additional/MainView.java:113:	Parameter 'e' is not assigned and could be declared final
+src/additional/MainView.java:113:	publicMethodCommentRequirement Required
+src/additional/MainView.java:125:	Parameter 'arg0' is not assigned and could be declared final
+src/additional/MainView.java:125:	publicMethodCommentRequirement Required
+src/additional/MainView.java:126:	Potential violation of Law of Demeter (method chain calls)
+src/additional/MainView.java:130:	Local variable 'dblogin' could be declared final
+src/additional/ObservableObject.java:5:	headerCommentRequirement Required
+src/additional/ObservableObject.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/additional/ObservableObject.java:6:	fieldCommentRequirement Required
+src/additional/ObservableObject.java:8:	Document empty constructor
+src/additional/ObservableObject.java:8:	It is a good practice to call super() in a constructor
+src/additional/ObservableObject.java:8:	publicMethodCommentRequirement Required
+src/additional/ObservableObject.java:10:	It is a good practice to call super() in a constructor
+src/additional/ObservableObject.java:10:	Parameter 'startingValue' is not assigned and could be declared final
+src/additional/ObservableObject.java:10:	publicMethodCommentRequirement Required
+src/additional/ObservableObject.java:14:	publicMethodCommentRequirement Required
+src/additional/ObservableObject.java:18:	Parameter 'newValue' is not assigned and could be declared final
+src/additional/ObservableObject.java:18:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:11:	Comment is too large: Too many lines
+src/additional/TableColumnAdjuster.java:25:	headerCommentRequirement Required
+src/additional/TableColumnAdjuster.java:26:	This class has too many methods, consider refactoring it.
+src/additional/TableColumnAdjuster.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/additional/TableColumnAdjuster.java:27:	fieldCommentRequirement Required
+src/additional/TableColumnAdjuster.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/additional/TableColumnAdjuster.java:28:	fieldCommentRequirement Required
+src/additional/TableColumnAdjuster.java:29:	Avoid excessively long variable names like isColumnHeaderIncluded
+src/additional/TableColumnAdjuster.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/additional/TableColumnAdjuster.java:29:	fieldCommentRequirement Required
+src/additional/TableColumnAdjuster.java:30:	Avoid excessively long variable names like isColumnDataIncluded
+src/additional/TableColumnAdjuster.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/additional/TableColumnAdjuster.java:30:	fieldCommentRequirement Required
+src/additional/TableColumnAdjuster.java:31:	Avoid excessively long variable names like isOnlyAdjustLarger
+src/additional/TableColumnAdjuster.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/additional/TableColumnAdjuster.java:31:	fieldCommentRequirement Required
+src/additional/TableColumnAdjuster.java:32:	Avoid excessively long variable names like isDynamicAdjustment
+src/additional/TableColumnAdjuster.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/additional/TableColumnAdjuster.java:32:	fieldCommentRequirement Required
+src/additional/TableColumnAdjuster.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/additional/TableColumnAdjuster.java:33:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/additional/TableColumnAdjuster.java:33:	Private field 'columnSizes' could be made final; it is only initialized in the declaration or constructor.
+src/additional/TableColumnAdjuster.java:33:	fieldCommentRequirement Required
+src/additional/TableColumnAdjuster.java:38:	Parameter 'table' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:38:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:46:	Parameter 'spacing' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:46:	Parameter 'table' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:46:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:60:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:62:	Local variable 'tcm' could be declared final
+src/additional/TableColumnAdjuster.java:64:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:73:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:75:	Local variable 'tableColumn' could be declared final
+src/additional/TableColumnAdjuster.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:77:	Avoid using if statements without curly braces
+src/additional/TableColumnAdjuster.java:77:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:79:	Local variable 'columnHeaderWidth' could be declared final
+src/additional/TableColumnAdjuster.java:80:	Local variable 'columnDataWidth' could be declared final
+src/additional/TableColumnAdjuster.java:81:	Local variable 'preferredWidth' could be declared final
+src/additional/TableColumnAdjuster.java:89:	Parameter 'column' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:91:	A method should have only one exit point, and that should be the last statement in the method
+src/additional/TableColumnAdjuster.java:91:	Avoid using if statements without curly braces
+src/additional/TableColumnAdjuster.java:93:	Local variable 'tableColumn' could be declared final
+src/additional/TableColumnAdjuster.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:94:	Local variable 'value' could be declared final
+src/additional/TableColumnAdjuster.java:94:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:95:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:102:	Avoid variables with short names like c
+src/additional/TableColumnAdjuster.java:102:	Local variable 'c' could be declared final
+src/additional/TableColumnAdjuster.java:102:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:103:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:110:	Parameter 'column' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:112:	A method should have only one exit point, and that should be the last statement in the method
+src/additional/TableColumnAdjuster.java:112:	Avoid using if statements without curly braces
+src/additional/TableColumnAdjuster.java:114:	Found 'DD'-anomaly for variable 'preferredWidth' (lines '114'-'119').
+src/additional/TableColumnAdjuster.java:115:	Found 'DU'-anomaly for variable 'maxWidth' (lines '115'-'128').
+src/additional/TableColumnAdjuster.java:115:	Local variable 'maxWidth' could be declared final
+src/additional/TableColumnAdjuster.java:115:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:115:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:123:	Avoid using if statements without curly braces
+src/additional/TableColumnAdjuster.java:133:	Parameter 'column' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:133:	Parameter 'row' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:137:	Local variable 'cellRenderer' could be declared final
+src/additional/TableColumnAdjuster.java:138:	Avoid variables with short names like c
+src/additional/TableColumnAdjuster.java:138:	Local variable 'c' could be declared final
+src/additional/TableColumnAdjuster.java:139:	Local variable 'width' could be declared final
+src/additional/TableColumnAdjuster.java:139:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:139:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:139:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:147:	Avoid reassigning parameters such as 'width'
+src/additional/TableColumnAdjuster.java:147:	Avoid reassigning parameters such as 'width'
+src/additional/TableColumnAdjuster.java:147:	Parameter 'column' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:149:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:151:	Avoid using if statements without curly braces
+src/additional/TableColumnAdjuster.java:151:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:159:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:162:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/additional/TableColumnAdjuster.java:162:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:163:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:164:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:170:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:172:	Local variable 'tcm' could be declared final
+src/additional/TableColumnAdjuster.java:174:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:183:	Parameter 'column' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:185:	Local variable 'tableColumn' could be declared final
+src/additional/TableColumnAdjuster.java:185:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:186:	Local variable 'width' could be declared final
+src/additional/TableColumnAdjuster.java:190:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:191:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:191:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:198:	Avoid excessively long variable names like isColumnHeaderIncluded
+src/additional/TableColumnAdjuster.java:198:	Parameter 'isColumnHeaderIncluded' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:198:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:206:	Avoid excessively long variable names like isColumnDataIncluded
+src/additional/TableColumnAdjuster.java:206:	Parameter 'isColumnDataIncluded' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:206:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:214:	Avoid excessively long variable names like isOnlyAdjustLarger
+src/additional/TableColumnAdjuster.java:214:	Parameter 'isOnlyAdjustLarger' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:214:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:223:	Avoid excessively long variable names like isDynamicAdjustment
+src/additional/TableColumnAdjuster.java:223:	Parameter 'isDynamicAdjustment' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:223:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:232:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:237:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:246:	Avoid variables with short names like e
+src/additional/TableColumnAdjuster.java:246:	Parameter 'e' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:246:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:254:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:257:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:264:	Avoid variables with short names like e
+src/additional/TableColumnAdjuster.java:264:	Parameter 'e' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:264:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:266:	Avoid using if statements without curly braces
+src/additional/TableColumnAdjuster.java:272:	Local variable 'column' could be declared final
+src/additional/TableColumnAdjuster.java:278:	Found 'DU'-anomaly for variable 'row' (lines '278'-'302').
+src/additional/TableColumnAdjuster.java:278:	Local variable 'row' could be declared final
+src/additional/TableColumnAdjuster.java:279:	Local variable 'tableColumn' could be declared final
+src/additional/TableColumnAdjuster.java:279:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:281:	Potential violation of Law of Demeter (object not created locally)
+src/additional/TableColumnAdjuster.java:283:	Local variable 'width' could be declared final
+src/additional/TableColumnAdjuster.java:322:	Parameter 'isAdjust' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:322:	Parameter 'isSelectedColumn' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:322:	Parameter 'key' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:322:	Parameter 'keyStroke' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:324:	Local variable 'action' could be declared final
+src/additional/TableColumnAdjuster.java:325:	Avoid variables with short names like ks
+src/additional/TableColumnAdjuster.java:325:	Local variable 'ks' could be declared final
+src/additional/TableColumnAdjuster.java:326:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:327:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:334:	Parameter 'isToggleDynamic' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:334:	Parameter 'isToggleLarger' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:334:	Parameter 'key' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:334:	Parameter 'keyStroke' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:336:	Local variable 'action' could be declared final
+src/additional/TableColumnAdjuster.java:337:	Avoid variables with short names like ks
+src/additional/TableColumnAdjuster.java:337:	Local variable 'ks' could be declared final
+src/additional/TableColumnAdjuster.java:338:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:339:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:346:	headerCommentRequirement Required
+src/additional/TableColumnAdjuster.java:348:	Private field 'isSelectedColumn' could be made final; it is only initialized in the declaration or constructor.
+src/additional/TableColumnAdjuster.java:348:	fieldCommentRequirement Required
+src/additional/TableColumnAdjuster.java:349:	Private field 'isAdjust' could be made final; it is only initialized in the declaration or constructor.
+src/additional/TableColumnAdjuster.java:349:	fieldCommentRequirement Required
+src/additional/TableColumnAdjuster.java:351:	It is a good practice to call super() in a constructor
+src/additional/TableColumnAdjuster.java:351:	Parameter 'isAdjust' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:351:	Parameter 'isSelectedColumn' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:351:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:358:	Avoid variables with short names like e
+src/additional/TableColumnAdjuster.java:358:	Parameter 'e' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:358:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:364:	Local variable 'columns' could be declared final
+src/additional/TableColumnAdjuster.java:369:	Avoid using if...else statements without curly braces
+src/additional/TableColumnAdjuster.java:369:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:371:	Avoid using if...else statements without curly braces
+src/additional/TableColumnAdjuster.java:371:	Potential violation of Law of Demeter (method chain calls)
+src/additional/TableColumnAdjuster.java:377:	Avoid using if...else statements without curly braces
+src/additional/TableColumnAdjuster.java:379:	Avoid using if...else statements without curly braces
+src/additional/TableColumnAdjuster.java:389:	headerCommentRequirement Required
+src/additional/TableColumnAdjuster.java:391:	Private field 'isToggleDynamic' could be made final; it is only initialized in the declaration or constructor.
+src/additional/TableColumnAdjuster.java:391:	fieldCommentRequirement Required
+src/additional/TableColumnAdjuster.java:392:	Private field 'isToggleLarger' could be made final; it is only initialized in the declaration or constructor.
+src/additional/TableColumnAdjuster.java:392:	fieldCommentRequirement Required
+src/additional/TableColumnAdjuster.java:394:	It is a good practice to call super() in a constructor
+src/additional/TableColumnAdjuster.java:394:	Parameter 'isToggleDynamic' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:394:	Parameter 'isToggleLarger' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:394:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:401:	Avoid variables with short names like e
+src/additional/TableColumnAdjuster.java:401:	Parameter 'e' is not assigned and could be declared final
+src/additional/TableColumnAdjuster.java:401:	publicMethodCommentRequirement Required
+src/additional/TableColumnAdjuster.java:406:	A method should have only one exit point, and that should be the last statement in the method
+src/controllers/AdministratorController.java:8:	headerCommentRequirement Required
+src/controllers/AdministratorController.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controllers/AdministratorController.java:10:	Private field 'views' could be made final; it is only initialized in the declaration or constructor.
+src/controllers/AdministratorController.java:10:	fieldCommentRequirement Required
+src/controllers/AdministratorController.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controllers/AdministratorController.java:11:	Private field 'model' could be made final; it is only initialized in the declaration or constructor.
+src/controllers/AdministratorController.java:11:	fieldCommentRequirement Required
+src/controllers/AdministratorController.java:13:	Parameter 'model' is not assigned and could be declared final
+src/controllers/AdministratorController.java:13:	Parameter 'views' is not assigned and could be declared final
+src/controllers/AdministratorController.java:13:	publicMethodCommentRequirement Required
+src/controllers/AdministratorController.java:21:	Each class should declare at least one constructor
+src/controllers/AdministratorController.java:21:	headerCommentRequirement Required
+src/controllers/AdministratorController.java:22:	Avoid variables with short names like e
+src/controllers/AdministratorController.java:22:	Parameter 'e' is not assigned and could be declared final
+src/controllers/AdministratorController.java:22:	publicMethodCommentRequirement Required
+src/controllers/AdministratorController.java:31:	Each class should declare at least one constructor
+src/controllers/AdministratorController.java:31:	headerCommentRequirement Required
+src/controllers/AdministratorController.java:32:	Avoid variables with short names like e
+src/controllers/AdministratorController.java:32:	Parameter 'e' is not assigned and could be declared final
+src/controllers/AdministratorController.java:32:	publicMethodCommentRequirement Required
+src/controllers/AdministratorController.java:40:	publicMethodCommentRequirement Required
+src/controllers/CourierController.java:10:	headerCommentRequirement Required
+src/controllers/CourierController.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controllers/CourierController.java:12:	Private field 'views' could be made final; it is only initialized in the declaration or constructor.
+src/controllers/CourierController.java:12:	fieldCommentRequirement Required
+src/controllers/CourierController.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controllers/CourierController.java:13:	Private field 'model' could be made final; it is only initialized in the declaration or constructor.
+src/controllers/CourierController.java:13:	fieldCommentRequirement Required
+src/controllers/CourierController.java:15:	Parameter 'model' is not assigned and could be declared final
+src/controllers/CourierController.java:15:	Parameter 'views' is not assigned and could be declared final
+src/controllers/CourierController.java:15:	publicMethodCommentRequirement Required
+src/controllers/CourierController.java:27:	Each class should declare at least one constructor
+src/controllers/CourierController.java:27:	headerCommentRequirement Required
+src/controllers/CourierController.java:28:	Avoid variables with short names like e
+src/controllers/CourierController.java:28:	Parameter 'e' is not assigned and could be declared final
+src/controllers/CourierController.java:28:	publicMethodCommentRequirement Required
+src/controllers/CourierController.java:38:	Each class should declare at least one constructor
+src/controllers/CourierController.java:38:	headerCommentRequirement Required
+src/controllers/CourierController.java:39:	Avoid variables with short names like e
+src/controllers/CourierController.java:39:	Parameter 'e' is not assigned and could be declared final
+src/controllers/CourierController.java:39:	publicMethodCommentRequirement Required
+src/controllers/CourierController.java:49:	Each class should declare at least one constructor
+src/controllers/CourierController.java:49:	headerCommentRequirement Required
+src/controllers/CourierController.java:50:	Avoid variables with short names like e
+src/controllers/CourierController.java:50:	Parameter 'e' is not assigned and could be declared final
+src/controllers/CourierController.java:50:	publicMethodCommentRequirement Required
+src/controllers/CourierController.java:55:	Potential violation of Law of Demeter (static property access)
+src/controllers/CourierController.java:62:	Each class should declare at least one constructor
+src/controllers/CourierController.java:62:	headerCommentRequirement Required
+src/controllers/CourierController.java:63:	Parameter 'arg' is not assigned and could be declared final
+src/controllers/CourierController.java:63:	Parameter 'obs' is not assigned and could be declared final
+src/controllers/CourierController.java:63:	publicMethodCommentRequirement Required
+src/controllers/CourierController.java:64:	Potential violation of Law of Demeter (static property access)
+src/controllers/CourierController.java:68:	Each class should declare at least one constructor
+src/controllers/CourierController.java:68:	headerCommentRequirement Required
+src/controllers/CourierController.java:69:	Parameter 'arg' is not assigned and could be declared final
+src/controllers/CourierController.java:69:	Parameter 'obs' is not assigned and could be declared final
+src/controllers/CourierController.java:69:	publicMethodCommentRequirement Required
+src/controllers/CourierController.java:70:	Potential violation of Law of Demeter (static property access)
+src/controllers/CourierController.java:74:	publicMethodCommentRequirement Required
+src/controllers/CustomerController.java:10:	headerCommentRequirement Required
+src/controllers/CustomerController.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controllers/CustomerController.java:12:	Private field 'views' could be made final; it is only initialized in the declaration or constructor.
+src/controllers/CustomerController.java:12:	fieldCommentRequirement Required
+src/controllers/CustomerController.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controllers/CustomerController.java:13:	Private field 'model' could be made final; it is only initialized in the declaration or constructor.
+src/controllers/CustomerController.java:13:	fieldCommentRequirement Required
+src/controllers/CustomerController.java:15:	Parameter 'model' is not assigned and could be declared final
+src/controllers/CustomerController.java:15:	Parameter 'views' is not assigned and could be declared final
+src/controllers/CustomerController.java:15:	publicMethodCommentRequirement Required
+src/controllers/CustomerController.java:24:	Each class should declare at least one constructor
+src/controllers/CustomerController.java:24:	headerCommentRequirement Required
+src/controllers/CustomerController.java:25:	Avoid variables with short names like e
+src/controllers/CustomerController.java:25:	Parameter 'e' is not assigned and could be declared final
+src/controllers/CustomerController.java:25:	publicMethodCommentRequirement Required
+src/controllers/CustomerController.java:31:	Each class should declare at least one constructor
+src/controllers/CustomerController.java:31:	headerCommentRequirement Required
+src/controllers/CustomerController.java:32:	Parameter 'arg' is not assigned and could be declared final
+src/controllers/CustomerController.java:32:	Parameter 'obs' is not assigned and could be declared final
+src/controllers/CustomerController.java:32:	publicMethodCommentRequirement Required
+src/controllers/CustomerController.java:33:	Potential violation of Law of Demeter (static property access)
+src/controllers/CustomerController.java:37:	Each class should declare at least one constructor
+src/controllers/CustomerController.java:37:	headerCommentRequirement Required
+src/controllers/CustomerController.java:38:	Parameter 'arg' is not assigned and could be declared final
+src/controllers/CustomerController.java:38:	Parameter 'obs' is not assigned and could be declared final
+src/controllers/CustomerController.java:38:	publicMethodCommentRequirement Required
+src/controllers/CustomerController.java:39:	Potential violation of Law of Demeter (static property access)
+src/controllers/CustomerController.java:43:	publicMethodCommentRequirement Required
+src/controllers/EmployeeController.java:16:	This class has too many methods, consider refactoring it.
+src/controllers/EmployeeController.java:16:	headerCommentRequirement Required
+src/controllers/EmployeeController.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controllers/EmployeeController.java:18:	Private field 'empView' could be made final; it is only initialized in the declaration or constructor.
+src/controllers/EmployeeController.java:18:	fieldCommentRequirement Required
+src/controllers/EmployeeController.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controllers/EmployeeController.java:19:	Private field 'empModel' could be made final; it is only initialized in the declaration or constructor.
+src/controllers/EmployeeController.java:19:	fieldCommentRequirement Required
+src/controllers/EmployeeController.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controllers/EmployeeController.java:20:	fieldCommentRequirement Required
+src/controllers/EmployeeController.java:22:	Parameter 'model' is not assigned and could be declared final
+src/controllers/EmployeeController.java:22:	Parameter 'views' is not assigned and could be declared final
+src/controllers/EmployeeController.java:22:	publicMethodCommentRequirement Required
+src/controllers/EmployeeController.java:38:	Each class should declare at least one constructor
+src/controllers/EmployeeController.java:38:	headerCommentRequirement Required
+src/controllers/EmployeeController.java:39:	Avoid variables with short names like e
+src/controllers/EmployeeController.java:39:	Parameter 'e' is not assigned and could be declared final
+src/controllers/EmployeeController.java:39:	publicMethodCommentRequirement Required
+src/controllers/EmployeeController.java:49:	Each class should declare at least one constructor
+src/controllers/EmployeeController.java:49:	headerCommentRequirement Required
+src/controllers/EmployeeController.java:50:	Avoid variables with short names like e
+src/controllers/EmployeeController.java:50:	Parameter 'e' is not assigned and could be declared final
+src/controllers/EmployeeController.java:50:	publicMethodCommentRequirement Required
+src/controllers/EmployeeController.java:61:	Each class should declare at least one constructor
+src/controllers/EmployeeController.java:61:	headerCommentRequirement Required
+src/controllers/EmployeeController.java:62:	Avoid variables with short names like e
+src/controllers/EmployeeController.java:62:	Parameter 'e' is not assigned and could be declared final
+src/controllers/EmployeeController.java:62:	publicMethodCommentRequirement Required
+src/controllers/EmployeeController.java:74:	Each class should declare at least one constructor
+src/controllers/EmployeeController.java:74:	headerCommentRequirement Required
+src/controllers/EmployeeController.java:75:	Avoid variables with short names like e
+src/controllers/EmployeeController.java:75:	Parameter 'e' is not assigned and could be declared final
+src/controllers/EmployeeController.java:75:	publicMethodCommentRequirement Required
+src/controllers/EmployeeController.java:84:	Each class should declare at least one constructor
+src/controllers/EmployeeController.java:84:	headerCommentRequirement Required
+src/controllers/EmployeeController.java:85:	Avoid variables with short names like e
+src/controllers/EmployeeController.java:85:	Parameter 'e' is not assigned and could be declared final
+src/controllers/EmployeeController.java:85:	publicMethodCommentRequirement Required
+src/controllers/EmployeeController.java:91:	Local variable 'table' could be declared final
+src/controllers/EmployeeController.java:92:	Local variable 'tca' could be declared final
+src/controllers/EmployeeController.java:102:	Each class should declare at least one constructor
+src/controllers/EmployeeController.java:102:	headerCommentRequirement Required
+src/controllers/EmployeeController.java:103:	Avoid variables with short names like e
+src/controllers/EmployeeController.java:103:	Parameter 'e' is not assigned and could be declared final
+src/controllers/EmployeeController.java:103:	publicMethodCommentRequirement Required
+src/controllers/EmployeeController.java:114:	Each class should declare at least one constructor
+src/controllers/EmployeeController.java:114:	headerCommentRequirement Required
+src/controllers/EmployeeController.java:115:	Parameter 'arg' is not assigned and could be declared final
+src/controllers/EmployeeController.java:115:	Parameter 'obs' is not assigned and could be declared final
+src/controllers/EmployeeController.java:115:	publicMethodCommentRequirement Required
+src/controllers/EmployeeController.java:116:	Potential violation of Law of Demeter (static property access)
+src/controllers/EmployeeController.java:120:	Each class should declare at least one constructor
+src/controllers/EmployeeController.java:120:	headerCommentRequirement Required
+src/controllers/EmployeeController.java:121:	Parameter 'arg' is not assigned and could be declared final
+src/controllers/EmployeeController.java:121:	Parameter 'obs' is not assigned and could be declared final
+src/controllers/EmployeeController.java:121:	publicMethodCommentRequirement Required
+src/controllers/EmployeeController.java:122:	Potential violation of Law of Demeter (static property access)
+src/controllers/EmployeeController.java:126:	Each class should declare at least one constructor
+src/controllers/EmployeeController.java:126:	headerCommentRequirement Required
+src/controllers/EmployeeController.java:127:	Parameter 'arg' is not assigned and could be declared final
+src/controllers/EmployeeController.java:127:	Parameter 'obs' is not assigned and could be declared final
+src/controllers/EmployeeController.java:127:	publicMethodCommentRequirement Required
+src/controllers/EmployeeController.java:128:	Potential violation of Law of Demeter (static property access)
+src/controllers/EmployeeController.java:132:	Each class should declare at least one constructor
+src/controllers/EmployeeController.java:132:	headerCommentRequirement Required
+src/controllers/EmployeeController.java:133:	Parameter 'arg' is not assigned and could be declared final
+src/controllers/EmployeeController.java:133:	Parameter 'obs' is not assigned and could be declared final
+src/controllers/EmployeeController.java:133:	publicMethodCommentRequirement Required
+src/controllers/EmployeeController.java:134:	Potential violation of Law of Demeter (static property access)
+src/controllers/EmployeeController.java:139:	publicMethodCommentRequirement Required
+src/controllers/EmployeeController.java:144:	Avoid using if statements without curly braces
+src/controllers/LoginController.java:5:	headerCommentRequirement Required
+src/controllers/LoginController.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controllers/LoginController.java:7:	Private field 'login' could be made final; it is only initialized in the declaration or constructor.
+src/controllers/LoginController.java:7:	fieldCommentRequirement Required
+src/controllers/LoginController.java:9:	Parameter 'loginv' is not assigned and could be declared final
+src/controllers/LoginController.java:9:	publicMethodCommentRequirement Required
+src/controllers/LoginController.java:13:	publicMethodCommentRequirement Required
+src/models/AdministratorModel.java:18:	The class 'AdministratorModel' has a Cyclomatic Complexity of 7 (Highest = 11).
+src/models/AdministratorModel.java:18:	The class 'AdministratorModel' has a Modified Cyclomatic Complexity of 6 (Highest = 11).
+src/models/AdministratorModel.java:18:	The class 'AdministratorModel' has a Standard Cyclomatic Complexity of 6 (Highest = 11).
+src/models/AdministratorModel.java:18:	headerCommentRequirement Required
+src/models/AdministratorModel.java:20:	Avoid unnecessary constructors - the compiler will generate these for you
+src/models/AdministratorModel.java:20:	Document empty constructor
+src/models/AdministratorModel.java:20:	publicMethodCommentRequirement Required
+src/models/AdministratorModel.java:22:	Method names should not start with capital letters
+src/models/AdministratorModel.java:22:	Parameter 'selection' is not assigned and could be declared final
+src/models/AdministratorModel.java:22:	The method 'ComboBox' has a Cyclomatic Complexity of 11.
+src/models/AdministratorModel.java:22:	The method 'ComboBox' has a Modified Cyclomatic Complexity of 11.
+src/models/AdministratorModel.java:22:	The method 'ComboBox' has a Standard Cyclomatic Complexity of 11.
+src/models/AdministratorModel.java:22:	The method ComboBox() has an NPath complexity of 258
+src/models/AdministratorModel.java:22:	publicMethodCommentRequirement Required
+src/models/AdministratorModel.java:23:	Found 'DD'-anomaly for variable 'dataset' (lines '23'-'61').
+src/models/AdministratorModel.java:25:	Position literals first in String comparisons
+src/models/AdministratorModel.java:27:	Potential violation of Law of Demeter (method chain calls)
+src/models/AdministratorModel.java:30:	Local variable 'dbUtil' could be declared final
+src/models/AdministratorModel.java:31:	Ensure that resources like this Connection object are closed after use
+src/models/AdministratorModel.java:31:	Local variable 'conn' could be declared final
+src/models/AdministratorModel.java:32:	Ensure that resources like this Statement object are closed after use
+src/models/AdministratorModel.java:32:	Local variable 'stm' could be declared final
+src/models/AdministratorModel.java:34:	Found 'DD'-anomaly for variable 'idall' (lines '34'-'40').
+src/models/AdministratorModel.java:35:	Found 'DD'-anomaly for variable 'idquery' (lines '35'-'59').
+src/models/AdministratorModel.java:36:	Found 'DD'-anomaly for variable 'query' (lines '36'-'44').
+src/models/AdministratorModel.java:36:	Found 'DD'-anomaly for variable 'query' (lines '36'-'46').
+src/models/AdministratorModel.java:36:	Found 'DD'-anomaly for variable 'query' (lines '36'-'48').
+src/models/AdministratorModel.java:36:	Found 'DD'-anomaly for variable 'query' (lines '36'-'50').
+src/models/AdministratorModel.java:36:	Found 'DD'-anomaly for variable 'query' (lines '36'-'52').
+src/models/AdministratorModel.java:36:	Found 'DD'-anomaly for variable 'query' (lines '36'-'54').
+src/models/AdministratorModel.java:38:	Avoid variables with short names like rs
+src/models/AdministratorModel.java:38:	Ensure that resources like this ResultSet object are closed after use
+src/models/AdministratorModel.java:40:	Found 'DD'-anomaly for variable 'idall' (lines '40'-'40').
+src/models/AdministratorModel.java:43:	Avoid using if statements without curly braces
+src/models/AdministratorModel.java:43:	Position literals first in String comparisons
+src/models/AdministratorModel.java:44:	Found 'DD'-anomaly for variable 'query' (lines '44'-'46').
+src/models/AdministratorModel.java:44:	Found 'DD'-anomaly for variable 'query' (lines '44'-'48').
+src/models/AdministratorModel.java:44:	Found 'DD'-anomaly for variable 'query' (lines '44'-'50').
+src/models/AdministratorModel.java:44:	Found 'DD'-anomaly for variable 'query' (lines '44'-'52').
+src/models/AdministratorModel.java:44:	Found 'DD'-anomaly for variable 'query' (lines '44'-'54').
+src/models/AdministratorModel.java:45:	Avoid using if statements without curly braces
+src/models/AdministratorModel.java:45:	Position literals first in String comparisons
+src/models/AdministratorModel.java:46:	Found 'DD'-anomaly for variable 'query' (lines '46'-'48').
+src/models/AdministratorModel.java:46:	Found 'DD'-anomaly for variable 'query' (lines '46'-'50').
+src/models/AdministratorModel.java:46:	Found 'DD'-anomaly for variable 'query' (lines '46'-'52').
+src/models/AdministratorModel.java:46:	Found 'DD'-anomaly for variable 'query' (lines '46'-'54').
+src/models/AdministratorModel.java:47:	Avoid using if statements without curly braces
+src/models/AdministratorModel.java:47:	Position literals first in String comparisons
+src/models/AdministratorModel.java:48:	Found 'DD'-anomaly for variable 'query' (lines '48'-'50').
+src/models/AdministratorModel.java:48:	Found 'DD'-anomaly for variable 'query' (lines '48'-'52').
+src/models/AdministratorModel.java:48:	Found 'DD'-anomaly for variable 'query' (lines '48'-'54').
+src/models/AdministratorModel.java:49:	Avoid using if statements without curly braces
+src/models/AdministratorModel.java:49:	Position literals first in String comparisons
+src/models/AdministratorModel.java:50:	Found 'DD'-anomaly for variable 'query' (lines '50'-'52').
+src/models/AdministratorModel.java:50:	Found 'DD'-anomaly for variable 'query' (lines '50'-'54').
+src/models/AdministratorModel.java:51:	Avoid using if statements without curly braces
+src/models/AdministratorModel.java:51:	Position literals first in String comparisons
+src/models/AdministratorModel.java:52:	Found 'DD'-anomaly for variable 'query' (lines '52'-'54').
+src/models/AdministratorModel.java:53:	Avoid using if statements without curly braces
+src/models/AdministratorModel.java:53:	Position literals first in String comparisons
+src/models/AdministratorModel.java:59:	Found 'DD'-anomaly for variable 'idquery' (lines '59'-'59').
+src/models/AdministratorModel.java:70:	A method should have only one exit point, and that should be the last statement in the method
+src/models/AdministratorModel.java:72:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/models/AdministratorModel.java:73:	Avoid printStackTrace(); use a logger call instead.
+src/models/AdministratorModel.java:79:	Method names should not start with capital letters
+src/models/AdministratorModel.java:79:	publicMethodCommentRequirement Required
+src/models/AdministratorModel.java:80:	Local variable 'filename' could be declared final
+src/models/AdministratorModel.java:81:	Local variable 'chooser' could be declared final
+src/models/AdministratorModel.java:83:	Local variable 'state' could be declared final
+src/models/AdministratorModel.java:84:	Local variable 'file' could be declared final
+src/models/AdministratorModel.java:89:	Local variable 'csv' could be declared final
+src/models/AdministratorModel.java:90:	Potential violation of Law of Demeter (method chain calls)
+src/models/AdministratorModel.java:92:	Local variable 'dbUtil' could be declared final
+src/models/AdministratorModel.java:93:	Ensure that resources like this Connection object are closed after use
+src/models/AdministratorModel.java:93:	Local variable 'conn' could be declared final
+src/models/AdministratorModel.java:94:	Ensure that resources like this Statement object are closed after use
+src/models/AdministratorModel.java:94:	Local variable 'stm' could be declared final
+src/models/AdministratorModel.java:94:	Potential violation of Law of Demeter (object not created locally)
+src/models/AdministratorModel.java:95:	Avoid variables with short names like rs
+src/models/AdministratorModel.java:95:	Ensure that resources like this ResultSet object are closed after use
+src/models/AdministratorModel.java:95:	Local variable 'rs' could be declared final
+src/models/AdministratorModel.java:95:	Potential violation of Law of Demeter (object not created locally)
+src/models/AdministratorModel.java:99:	Potential violation of Law of Demeter (object not created locally)
+src/models/AdministratorModel.java:101:	Potential violation of Law of Demeter (object not created locally)
+src/models/AdministratorModel.java:102:	Local variable 'end' could be declared final
+src/models/AdministratorModel.java:107:	Potential violation of Law of Demeter (method chain calls)
+src/models/AdministratorModel.java:107:	Potential violation of Law of Demeter (object not created locally)
+src/models/AdministratorModel.java:107:	Potential violation of Law of Demeter (object not created locally)
+src/models/AdministratorModel.java:111:	Potential violation of Law of Demeter (object not created locally)
+src/models/AdministratorModel.java:112:	Potential violation of Law of Demeter (object not created locally)
+src/models/AdministratorModel.java:113:	Potential violation of Law of Demeter (object not created locally)
+src/models/AdministratorModel.java:115:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/models/CourierModel.java:13:	headerCommentRequirement Required
+src/models/CourierModel.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/models/CourierModel.java:15:	fieldCommentRequirement Required
+src/models/CourierModel.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/models/CourierModel.java:16:	fieldCommentRequirement Required
+src/models/CourierModel.java:18:	Avoid unnecessary constructors - the compiler will generate these for you
+src/models/CourierModel.java:18:	Document empty constructor
+src/models/CourierModel.java:18:	It is a good practice to call super() in a constructor
+src/models/CourierModel.java:18:	publicMethodCommentRequirement Required
+src/models/CourierModel.java:20:	Avoid reassigning parameters such as 'combobx'
+src/models/CourierModel.java:20:	Avoid reassigning parameters such as 'id'
+src/models/CourierModel.java:20:	Avoid variables with short names like id
+src/models/CourierModel.java:20:	Method names should not start with capital letters
+src/models/CourierModel.java:20:	publicMethodCommentRequirement Required
+src/models/CourierModel.java:22:	Avoid using if statements without curly braces
+src/models/CourierModel.java:22:	Position literals first in String comparisons
+src/models/CourierModel.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/models/CourierModel.java:31:	Local variable 'dbUtil' could be declared final
+src/models/CourierModel.java:32:	Ensure that resources like this Connection object are closed after use
+src/models/CourierModel.java:32:	Local variable 'conn' could be declared final
+src/models/CourierModel.java:33:	Local variable 'sqlgrapsimo' could be declared final
+src/models/CourierModel.java:33:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/models/CourierModel.java:34:	Avoid variables with short names like ps
+src/models/CourierModel.java:34:	Local variable 'ps' could be declared final
+src/models/CourierModel.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:38:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:40:	A method should have only one exit point, and that should be the last statement in the method
+src/models/CourierModel.java:42:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/models/CourierModel.java:43:	Avoid printStackTrace(); use a logger call instead.
+src/models/CourierModel.java:43:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:49:	Avoid reassigning parameters such as 'id'
+src/models/CourierModel.java:49:	Avoid reassigning parameters such as 'pa'
+src/models/CourierModel.java:49:	Avoid variables with short names like id
+src/models/CourierModel.java:49:	Avoid variables with short names like pa
+src/models/CourierModel.java:49:	Method names should not start with capital letters
+src/models/CourierModel.java:49:	publicMethodCommentRequirement Required
+src/models/CourierModel.java:51:	Useless parentheses.
+src/models/CourierModel.java:51:	Useless parentheses.
+src/models/CourierModel.java:52:	Avoid using Literals in Conditional Statements
+src/models/CourierModel.java:52:	Avoid using if statements without curly braces
+src/models/CourierModel.java:57:	Potential violation of Law of Demeter (method chain calls)
+src/models/CourierModel.java:60:	Local variable 'dbUtil' could be declared final
+src/models/CourierModel.java:61:	Ensure that resources like this Connection object are closed after use
+src/models/CourierModel.java:61:	Local variable 'conn' could be declared final
+src/models/CourierModel.java:62:	Ensure that resources like this Statement object are closed after use
+src/models/CourierModel.java:62:	Local variable 'stm' could be declared final
+src/models/CourierModel.java:62:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:67:	Local variable 'sqldiavasmaid' could be declared final
+src/models/CourierModel.java:68:	Avoid variables with short names like rs
+src/models/CourierModel.java:68:	Ensure that resources like this ResultSet object are closed after use
+src/models/CourierModel.java:68:	Local variable 'rs' could be declared final
+src/models/CourierModel.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:70:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:74:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:74:	Prefer StringBuffer over += for concatenating strings
+src/models/CourierModel.java:75:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:75:	Prefer StringBuffer over += for concatenating strings
+src/models/CourierModel.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/models/CourierModel.java:76:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:76:	Prefer StringBuffer over += for concatenating strings
+src/models/CourierModel.java:77:	Prefer StringBuffer over += for concatenating strings
+src/models/CourierModel.java:78:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:78:	Prefer StringBuffer over += for concatenating strings
+src/models/CourierModel.java:79:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:79:	Prefer StringBuffer over += for concatenating strings
+src/models/CourierModel.java:80:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:80:	Prefer StringBuffer over += for concatenating strings
+src/models/CourierModel.java:81:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:81:	Prefer StringBuffer over += for concatenating strings
+src/models/CourierModel.java:82:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:82:	Prefer StringBuffer over += for concatenating strings
+src/models/CourierModel.java:83:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:83:	Prefer StringBuffer over += for concatenating strings
+src/models/CourierModel.java:84:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:84:	Prefer StringBuffer over += for concatenating strings
+src/models/CourierModel.java:85:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:85:	Prefer StringBuffer over += for concatenating strings
+src/models/CourierModel.java:86:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:86:	Prefer StringBuffer over += for concatenating strings
+src/models/CourierModel.java:88:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:89:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:90:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:92:	A method should have only one exit point, and that should be the last statement in the method
+src/models/CourierModel.java:94:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/models/CourierModel.java:95:	Avoid printStackTrace(); use a logger call instead.
+src/models/CourierModel.java:95:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:101:	Comment is too large: Too many lines
+src/models/CourierModel.java:113:	Comment is too large: Line too long
+src/models/CourierModel.java:127:	Comment is too large: Line too long
+src/models/CourierModel.java:156:	Method names should not start with capital letters
+src/models/CourierModel.java:156:	publicMethodCommentRequirement Required
+src/models/CourierModel.java:158:	Potential violation of Law of Demeter (method chain calls)
+src/models/CourierModel.java:161:	Local variable 'dbUtil' could be declared final
+src/models/CourierModel.java:162:	Ensure that resources like this Connection object are closed after use
+src/models/CourierModel.java:162:	Local variable 'conn' could be declared final
+src/models/CourierModel.java:162:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:162:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:162:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:163:	Ensure that resources like this Statement object are closed after use
+src/models/CourierModel.java:163:	Local variable 'stm' could be declared final
+src/models/CourierModel.java:163:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:165:	Found 'DD'-anomaly for variable 'tablerow' (lines '165'-'174').
+src/models/CourierModel.java:165:	Found 'DU'-anomaly for variable 'tablerow' (lines '165'-'192').
+src/models/CourierModel.java:167:	Comment is too large: Line too long
+src/models/CourierModel.java:169:	Local variable 'sqldiavasmaid' could be declared final
+src/models/CourierModel.java:170:	Avoid variables with short names like rs
+src/models/CourierModel.java:170:	Ensure that resources like this ResultSet object are closed after use
+src/models/CourierModel.java:170:	Local variable 'rs' could be declared final
+src/models/CourierModel.java:170:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:173:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:174:	Found 'DD'-anomaly for variable 'tablerow' (lines '174'-'175').
+src/models/CourierModel.java:174:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:175:	Found 'DD'-anomaly for variable 'tablerow' (lines '175'-'176').
+src/models/CourierModel.java:175:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:176:	Found 'DD'-anomaly for variable 'tablerow' (lines '176'-'177').
+src/models/CourierModel.java:176:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:177:	Found 'DD'-anomaly for variable 'tablerow' (lines '177'-'178').
+src/models/CourierModel.java:177:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:178:	Found 'DD'-anomaly for variable 'tablerow' (lines '178'-'179').
+src/models/CourierModel.java:178:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:179:	Found 'DD'-anomaly for variable 'tablerow' (lines '179'-'180').
+src/models/CourierModel.java:179:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:180:	Potential violation of Law of Demeter (method chain calls)
+src/models/CourierModel.java:180:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:184:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:185:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:186:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:188:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/models/CourierModel.java:189:	Avoid printStackTrace(); use a logger call instead.
+src/models/CourierModel.java:189:	Potential violation of Law of Demeter (object not created locally)
+src/models/CourierModel.java:194:	Parameter 'controller' is not assigned and could be declared final
+src/models/CourierModel.java:194:	publicMethodCommentRequirement Required
+src/models/CourierModel.java:198:	Parameter 'controller' is not assigned and could be declared final
+src/models/CourierModel.java:198:	publicMethodCommentRequirement Required
+src/models/CustomerModel.java:13:	headerCommentRequirement Required
+src/models/CustomerModel.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/models/CustomerModel.java:15:	fieldCommentRequirement Required
+src/models/CustomerModel.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/models/CustomerModel.java:16:	fieldCommentRequirement Required
+src/models/CustomerModel.java:18:	Avoid unnecessary constructors - the compiler will generate these for you
+src/models/CustomerModel.java:18:	Document empty constructor
+src/models/CustomerModel.java:18:	It is a good practice to call super() in a constructor
+src/models/CustomerModel.java:18:	publicMethodCommentRequirement Required
+src/models/CustomerModel.java:20:	Method names should not start with capital letters
+src/models/CustomerModel.java:20:	Parameter 'tracking' is not assigned and could be declared final
+src/models/CustomerModel.java:20:	publicMethodCommentRequirement Required
+src/models/CustomerModel.java:24:	Avoid if (x != y) ..; else ..;
+src/models/CustomerModel.java:31:	Potential violation of Law of Demeter (method chain calls)
+src/models/CustomerModel.java:33:	Local variable 'dbUtil' could be declared final
+src/models/CustomerModel.java:34:	Ensure that resources like this Connection object are closed after use
+src/models/CustomerModel.java:34:	Local variable 'conn' could be declared final
+src/models/CustomerModel.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:35:	Ensure that resources like this Statement object are closed after use
+src/models/CustomerModel.java:35:	Local variable 'stm' could be declared final
+src/models/CustomerModel.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:37:	Local variable 'sql' could be declared final
+src/models/CustomerModel.java:39:	Avoid variables with short names like rs
+src/models/CustomerModel.java:39:	Ensure that resources like this ResultSet object are closed after use
+src/models/CustomerModel.java:39:	Local variable 'rs' could be declared final
+src/models/CustomerModel.java:39:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:41:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:42:	Local variable 'name' could be declared final
+src/models/CustomerModel.java:42:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:43:	Local variable 'surname' could be declared final
+src/models/CustomerModel.java:43:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:44:	Local variable 'country' could be declared final
+src/models/CustomerModel.java:44:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:45:	Local variable 'date' could be declared final
+src/models/CustomerModel.java:45:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:46:	Local variable 'address' could be declared final
+src/models/CustomerModel.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:47:	Local variable 'phone' could be declared final
+src/models/CustomerModel.java:47:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:48:	Local variable 'city' could be declared final
+src/models/CustomerModel.java:48:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:49:	Local variable 'comments' could be declared final
+src/models/CustomerModel.java:49:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:51:	Potential violation of Law of Demeter (method chain calls)
+src/models/CustomerModel.java:51:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:52:	Avoid using if...else statements without curly braces
+src/models/CustomerModel.java:54:	Avoid using if...else statements without curly braces
+src/models/CustomerModel.java:65:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:66:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:67:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:71:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/models/CustomerModel.java:72:	Avoid printStackTrace(); use a logger call instead.
+src/models/CustomerModel.java:72:	Potential violation of Law of Demeter (object not created locally)
+src/models/CustomerModel.java:78:	Parameter 'controller' is not assigned and could be declared final
+src/models/CustomerModel.java:78:	publicMethodCommentRequirement Required
+src/models/CustomerModel.java:82:	Parameter 'controller' is not assigned and could be declared final
+src/models/CustomerModel.java:82:	publicMethodCommentRequirement Required
+src/models/EmployeeModel.java:3:	Comment is too large: Too many lines
+src/models/EmployeeModel.java:6:	Comment is too large: Line too long
+src/models/EmployeeModel.java:7:	Comment is too large: Line too long
+src/models/EmployeeModel.java:8:	Comment is too large: Line too long
+src/models/EmployeeModel.java:9:	Comment is too large: Line too long
+src/models/EmployeeModel.java:10:	Comment is too large: Line too long
+src/models/EmployeeModel.java:11:	Comment is too large: Line too long
+src/models/EmployeeModel.java:12:	Comment is too large: Line too long
+src/models/EmployeeModel.java:13:	Comment is too large: Line too long
+src/models/EmployeeModel.java:14:	Comment is too large: Line too long
+src/models/EmployeeModel.java:15:	Comment is too large: Line too long
+src/models/EmployeeModel.java:16:	Comment is too large: Line too long
+src/models/EmployeeModel.java:17:	Comment is too large: Line too long
+src/models/EmployeeModel.java:18:	Comment is too large: Line too long
+src/models/EmployeeModel.java:19:	Comment is too large: Line too long
+src/models/EmployeeModel.java:20:	Comment is too large: Line too long
+src/models/EmployeeModel.java:21:	Comment is too large: Line too long
+src/models/EmployeeModel.java:22:	Comment is too large: Line too long
+src/models/EmployeeModel.java:23:	Comment is too large: Line too long
+src/models/EmployeeModel.java:24:	Comment is too large: Line too long
+src/models/EmployeeModel.java:42:	The class 'EmployeeModel' has a Cyclomatic Complexity of 4 (Highest = 15).
+src/models/EmployeeModel.java:42:	The class 'EmployeeModel' has a Modified Cyclomatic Complexity of 4 (Highest = 15).
+src/models/EmployeeModel.java:42:	The class 'EmployeeModel' has a Standard Cyclomatic Complexity of 4 (Highest = 15).
+src/models/EmployeeModel.java:42:	headerCommentRequirement Required
+src/models/EmployeeModel.java:44:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/models/EmployeeModel.java:44:	fieldCommentRequirement Required
+src/models/EmployeeModel.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/models/EmployeeModel.java:45:	fieldCommentRequirement Required
+src/models/EmployeeModel.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/models/EmployeeModel.java:46:	fieldCommentRequirement Required
+src/models/EmployeeModel.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/models/EmployeeModel.java:47:	fieldCommentRequirement Required
+src/models/EmployeeModel.java:48:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/models/EmployeeModel.java:48:	Perhaps 'table' could be replaced by a local variable.
+src/models/EmployeeModel.java:48:	fieldCommentRequirement Required
+src/models/EmployeeModel.java:49:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/models/EmployeeModel.java:49:	fieldCommentRequirement Required
+src/models/EmployeeModel.java:51:	Avoid unnecessary constructors - the compiler will generate these for you
+src/models/EmployeeModel.java:51:	Document empty constructor
+src/models/EmployeeModel.java:51:	publicMethodCommentRequirement Required
+src/models/EmployeeModel.java:53:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/models/EmployeeModel.java:53:	Method names should not start with capital letters
+src/models/EmployeeModel.java:53:	Parameter 'text' is not assigned and could be declared final
+src/models/EmployeeModel.java:53:	The method 'Panel1Submit' has a Cyclomatic Complexity of 11.
+src/models/EmployeeModel.java:53:	The method 'Panel1Submit' has a Modified Cyclomatic Complexity of 11.
+src/models/EmployeeModel.java:53:	The method 'Panel1Submit' has a Standard Cyclomatic Complexity of 11.
+src/models/EmployeeModel.java:53:	publicMethodCommentRequirement Required
+src/models/EmployeeModel.java:55:	Found 'DD'-anomaly for variable 'warning' (lines '55'-'59').
+src/models/EmployeeModel.java:55:	Found 'DD'-anomaly for variable 'warning' (lines '55'-'61').
+src/models/EmployeeModel.java:57:	Avoid using for statements without curly braces
+src/models/EmployeeModel.java:58:	Avoid using if statements without curly braces
+src/models/EmployeeModel.java:58:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:58:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:59:	Found 'DD'-anomaly for variable 'warning' (lines '59'-'59').
+src/models/EmployeeModel.java:59:	Found 'DD'-anomaly for variable 'warning' (lines '59'-'61').
+src/models/EmployeeModel.java:61:	Found 'DD'-anomaly for variable 'warning' (lines '61'-'62').
+src/models/EmployeeModel.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:61:	The String literal "[a-zA-Zá-ùÁ-Ù\\s]*" appears 7 times in this file; the first occurrence is on line 61
+src/models/EmployeeModel.java:61:	Use bitwise inversion to invert boolean values
+src/models/EmployeeModel.java:62:	Found 'DD'-anomaly for variable 'warning' (lines '62'-'63').
+src/models/EmployeeModel.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:62:	Use bitwise inversion to invert boolean values
+src/models/EmployeeModel.java:63:	Found 'DD'-anomaly for variable 'warning' (lines '63'-'64').
+src/models/EmployeeModel.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:63:	Use bitwise inversion to invert boolean values
+src/models/EmployeeModel.java:64:	Found 'DD'-anomaly for variable 'warning' (lines '64'-'65').
+src/models/EmployeeModel.java:64:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:64:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:64:	Use bitwise inversion to invert boolean values
+src/models/EmployeeModel.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:65:	Use bitwise inversion to invert boolean values
+src/models/EmployeeModel.java:69:	Found 'DD'-anomaly for variable 'ready' (lines '69'-'73').
+src/models/EmployeeModel.java:72:	Avoid unnecessary comparisons in boolean expressions
+src/models/EmployeeModel.java:78:	Avoid unnecessary comparisons in boolean expressions
+src/models/EmployeeModel.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:83:	Local variable 'dbUtil' could be declared final
+src/models/EmployeeModel.java:84:	Ensure that resources like this Connection object are closed after use
+src/models/EmployeeModel.java:84:	Local variable 'conn' could be declared final
+src/models/EmployeeModel.java:84:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:84:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:84:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:86:	Ensure that resources like this Statement object are closed after use
+src/models/EmployeeModel.java:86:	Local variable 'stm' could be declared final
+src/models/EmployeeModel.java:86:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:88:	Avoid variables with short names like id
+src/models/EmployeeModel.java:88:	Found 'DD'-anomaly for variable 'id' (lines '88'-'92').
+src/models/EmployeeModel.java:89:	Local variable 'sqldiavasmaid' could be declared final
+src/models/EmployeeModel.java:90:	Avoid variables with short names like rs
+src/models/EmployeeModel.java:90:	Ensure that resources like this ResultSet object are closed after use
+src/models/EmployeeModel.java:90:	Local variable 'rs' could be declared final
+src/models/EmployeeModel.java:90:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:91:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:92:	Found 'DD'-anomaly for variable 'id' (lines '92'-'92').
+src/models/EmployeeModel.java:92:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:95:	Local variable 'stmt' could be declared final
+src/models/EmployeeModel.java:96:	Ensure that resources like this ResultSet object are closed after use
+src/models/EmployeeModel.java:96:	Local variable 'rs1' could be declared final
+src/models/EmployeeModel.java:96:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:98:	Avoid variables with short names like r
+src/models/EmployeeModel.java:98:	Local variable 'r' could be declared final
+src/models/EmployeeModel.java:99:	Found 'DD'-anomaly for variable 'trackingnumber' (lines '99'-'105').
+src/models/EmployeeModel.java:99:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:100:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:101:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:102:	Found 'DD'-anomaly for variable 'trackingnumber' (lines '102'-'105').
+src/models/EmployeeModel.java:102:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:105:	Prefer StringBuffer over += for concatenating strings
+src/models/EmployeeModel.java:107:	Local variable 'sqlstmt' could be declared final
+src/models/EmployeeModel.java:108:	Avoid variables with short names like ps
+src/models/EmployeeModel.java:108:	Local variable 'ps' could be declared final
+src/models/EmployeeModel.java:108:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:109:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:110:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:110:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:111:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:111:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:112:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:112:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:113:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:114:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:114:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:115:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:115:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:115:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:116:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:116:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:117:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:118:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:118:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:119:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:119:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:120:	Avoid using if...else statements without curly braces
+src/models/EmployeeModel.java:120:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:122:	Avoid using if...else statements without curly braces
+src/models/EmployeeModel.java:122:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:123:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:124:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:124:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:125:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:127:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:129:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:130:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:131:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:133:	A method should have only one exit point, and that should be the last statement in the method
+src/models/EmployeeModel.java:136:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/models/EmployeeModel.java:137:	Avoid printStackTrace(); use a logger call instead.
+src/models/EmployeeModel.java:137:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:143:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/models/EmployeeModel.java:143:	Method names should not start with capital letters
+src/models/EmployeeModel.java:143:	Parameter 'text' is not assigned and could be declared final
+src/models/EmployeeModel.java:143:	The method 'Panel2Search' has a Cyclomatic Complexity of 15.
+src/models/EmployeeModel.java:143:	The method 'Panel2Search' has a Modified Cyclomatic Complexity of 15.
+src/models/EmployeeModel.java:143:	The method 'Panel2Search' has a Standard Cyclomatic Complexity of 15.
+src/models/EmployeeModel.java:143:	The method Panel2Search() has an NPath complexity of 2340
+src/models/EmployeeModel.java:143:	publicMethodCommentRequirement Required
+src/models/EmployeeModel.java:144:	Found 'DD'-anomaly for variable 'warning' (lines '144'-'150').
+src/models/EmployeeModel.java:146:	Avoid variables with short names like i
+src/models/EmployeeModel.java:146:	Found 'DD'-anomaly for variable 'count' (lines '146'-'149').
+src/models/EmployeeModel.java:146:	Found 'DD'-anomaly for variable 'i' (lines '146'-'147').
+src/models/EmployeeModel.java:146:	Use one line for each declaration, it enhances code readability.
+src/models/EmployeeModel.java:147:	Avoid using for statements without curly braces
+src/models/EmployeeModel.java:148:	Avoid using if statements without curly braces
+src/models/EmployeeModel.java:148:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:148:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:149:	Found 'DD'-anomaly for variable 'count' (lines '149'-'149').
+src/models/EmployeeModel.java:153:	Found 'DD'-anomaly for variable 'warning' (lines '153'-'154').
+src/models/EmployeeModel.java:153:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:153:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:153:	Use bitwise inversion to invert boolean values
+src/models/EmployeeModel.java:154:	Found 'DD'-anomaly for variable 'warning' (lines '154'-'155').
+src/models/EmployeeModel.java:154:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:154:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:154:	Use bitwise inversion to invert boolean values
+src/models/EmployeeModel.java:155:	Found 'DD'-anomaly for variable 'warning' (lines '155'-'156').
+src/models/EmployeeModel.java:155:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:155:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:155:	Use bitwise inversion to invert boolean values
+src/models/EmployeeModel.java:156:	Found 'DD'-anomaly for variable 'warning' (lines '156'-'157').
+src/models/EmployeeModel.java:156:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:156:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:156:	Use bitwise inversion to invert boolean values
+src/models/EmployeeModel.java:157:	Found 'DD'-anomaly for variable 'warning' (lines '157'-'158').
+src/models/EmployeeModel.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:157:	Use bitwise inversion to invert boolean values
+src/models/EmployeeModel.java:158:	Found 'DD'-anomaly for variable 'warning' (lines '158'-'159').
+src/models/EmployeeModel.java:158:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:158:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:158:	Use bitwise inversion to invert boolean values
+src/models/EmployeeModel.java:159:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:159:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:159:	Use bitwise inversion to invert boolean values
+src/models/EmployeeModel.java:164:	Found 'DD'-anomaly for variable 'ready' (lines '164'-'168').
+src/models/EmployeeModel.java:166:	Avoid using for statements without curly braces
+src/models/EmployeeModel.java:167:	Avoid using if statements without curly braces
+src/models/EmployeeModel.java:168:	Found 'DD'-anomaly for variable 'ready' (lines '168'-'168').
+src/models/EmployeeModel.java:172:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:173:	Local variable 'dbUtil' could be declared final
+src/models/EmployeeModel.java:174:	Ensure that resources like this Connection object are closed after use
+src/models/EmployeeModel.java:174:	Local variable 'conn' could be declared final
+src/models/EmployeeModel.java:174:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:174:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:174:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:175:	Ensure that resources like this Statement object are closed after use
+src/models/EmployeeModel.java:175:	Local variable 'stm' could be declared final
+src/models/EmployeeModel.java:175:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:177:	Found 'DU'-anomaly for variable 'database' (lines '177'-'214').
+src/models/EmployeeModel.java:177:	Local variable 'database' could be declared final
+src/models/EmployeeModel.java:178:	Avoid variables with short names like x
+src/models/EmployeeModel.java:179:	Avoid variables with short names like y
+src/models/EmployeeModel.java:179:	Found 'DU'-anomaly for variable 'y' (lines '179'-'214').
+src/models/EmployeeModel.java:179:	Local variable 'y' could be declared final
+src/models/EmployeeModel.java:180:	Found 'DU'-anomaly for variable 'first' (lines '180'-'214').
+src/models/EmployeeModel.java:183:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:183:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:184:	Avoid unnecessary comparisons in boolean expressions
+src/models/EmployeeModel.java:185:	Prefer StringBuffer over += for concatenating strings
+src/models/EmployeeModel.java:186:	Found 'DU'-anomaly for variable 'first' (lines '186'-'214').
+src/models/EmployeeModel.java:188:	Prefer StringBuffer over += for concatenating strings
+src/models/EmployeeModel.java:193:	Found 'DU'-anomaly for variable 'responce' (lines '193'-'214').
+src/models/EmployeeModel.java:194:	Avoid variables with short names like rs
+src/models/EmployeeModel.java:194:	Ensure that resources like this ResultSet object are closed after use
+src/models/EmployeeModel.java:194:	Local variable 'rs' could be declared final
+src/models/EmployeeModel.java:194:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:195:	Avoid variables with short names like y1
+src/models/EmployeeModel.java:195:	Found 'DD'-anomaly for variable 'y1' (lines '195'-'197').
+src/models/EmployeeModel.java:196:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:197:	Found 'DD'-anomaly for variable 'y1' (lines '197'-'197').
+src/models/EmployeeModel.java:198:	Avoid using for statements without curly braces
+src/models/EmployeeModel.java:199:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:203:	Avoid using if...else statements without curly braces
+src/models/EmployeeModel.java:205:	Avoid using if...else statements without curly braces
+src/models/EmployeeModel.java:209:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/models/EmployeeModel.java:210:	Avoid printStackTrace(); use a logger call instead.
+src/models/EmployeeModel.java:210:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:216:	Parameter 'ret' is not assigned and could be declared final
+src/models/EmployeeModel.java:216:	publicMethodCommentRequirement Required
+src/models/EmployeeModel.java:220:	Method names should not start with capital letters
+src/models/EmployeeModel.java:220:	Parameter 'ret' is not assigned and could be declared final
+src/models/EmployeeModel.java:220:	publicMethodCommentRequirement Required
+src/models/EmployeeModel.java:222:	Potential violation of Law of Demeter (method chain calls)
+src/models/EmployeeModel.java:225:	Local variable 'dbUtil' could be declared final
+src/models/EmployeeModel.java:226:	Ensure that resources like this Connection object are closed after use
+src/models/EmployeeModel.java:226:	Local variable 'conn' could be declared final
+src/models/EmployeeModel.java:226:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:226:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:226:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:227:	Ensure that resources like this Statement object are closed after use
+src/models/EmployeeModel.java:227:	Found 'DU'-anomaly for variable 'stm' (lines '227'-'266').
+src/models/EmployeeModel.java:227:	Local variable 'stm' could be declared final
+src/models/EmployeeModel.java:227:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:229:	Avoid variables with short names like x
+src/models/EmployeeModel.java:229:	Found 'DU'-anomaly for variable 'x' (lines '229'-'266').
+src/models/EmployeeModel.java:229:	Local variable 'x' could be declared final
+src/models/EmployeeModel.java:230:	Avoid variables with short names like y
+src/models/EmployeeModel.java:230:	Found 'DU'-anomaly for variable 'y' (lines '230'-'266').
+src/models/EmployeeModel.java:230:	Local variable 'y' could be declared final
+src/models/EmployeeModel.java:231:	Found 'DU'-anomaly for variable 'database' (lines '231'-'266').
+src/models/EmployeeModel.java:231:	Local variable 'database' could be declared final
+src/models/EmployeeModel.java:233:	Found 'DD'-anomaly for variable 'response' (lines '233'-'242').
+src/models/EmployeeModel.java:233:	Found 'DU'-anomaly for variable 'response' (lines '233'-'266').
+src/models/EmployeeModel.java:243:	Prefer StringBuffer over += for concatenating strings
+src/models/EmployeeModel.java:244:	Found 'DD'-anomaly for variable 'count' (lines '244'-'249').
+src/models/EmployeeModel.java:248:	Use equals() to compare object references.
+src/models/EmployeeModel.java:250:	Avoid using Literals in Conditional Statements
+src/models/EmployeeModel.java:251:	Avoid using if...else statements without curly braces
+src/models/EmployeeModel.java:251:	Prefer StringBuffer over += for concatenating strings
+src/models/EmployeeModel.java:253:	Avoid using if...else statements without curly braces
+src/models/EmployeeModel.java:253:	Prefer StringBuffer over += for concatenating strings
+src/models/EmployeeModel.java:256:	Prefer StringBuffer over += for concatenating strings
+src/models/EmployeeModel.java:258:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:259:	A method should have only one exit point, and that should be the last statement in the method
+src/models/EmployeeModel.java:262:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/models/EmployeeModel.java:263:	Avoid printStackTrace(); use a logger call instead.
+src/models/EmployeeModel.java:263:	Potential violation of Law of Demeter (object not created locally)
+src/models/EmployeeModel.java:268:	Parameter 'controller' is not assigned and could be declared final
+src/models/EmployeeModel.java:268:	publicMethodCommentRequirement Required
+src/models/EmployeeModel.java:272:	Parameter 'controller' is not assigned and could be declared final
+src/models/EmployeeModel.java:272:	publicMethodCommentRequirement Required
+src/models/EmployeeModel.java:276:	Parameter 'controller' is not assigned and could be declared final
+src/models/EmployeeModel.java:276:	publicMethodCommentRequirement Required
+src/models/EmployeeModel.java:280:	Parameter 'controller' is not assigned and could be declared final
+src/models/EmployeeModel.java:280:	publicMethodCommentRequirement Required
+src/views/AdministratorView.java:14:	headerCommentRequirement Required
+src/views/AdministratorView.java:16:	fieldCommentRequirement Required
+src/views/AdministratorView.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/AdministratorView.java:18:	Private field 'comboBox' could be made final; it is only initialized in the declaration or constructor.
+src/views/AdministratorView.java:18:	fieldCommentRequirement Required
+src/views/AdministratorView.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/AdministratorView.java:19:	Private field 'parameters' could be made final; it is only initialized in the declaration or constructor.
+src/views/AdministratorView.java:19:	fieldCommentRequirement Required
+src/views/AdministratorView.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/AdministratorView.java:20:	Private field 'btnExportAll' could be made final; it is only initialized in the declaration or constructor.
+src/views/AdministratorView.java:20:	fieldCommentRequirement Required
+src/views/AdministratorView.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/AdministratorView.java:21:	Private field 'panel' could be made final; it is only initialized in the declaration or constructor.
+src/views/AdministratorView.java:21:	fieldCommentRequirement Required
+src/views/AdministratorView.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/AdministratorView.java:22:	fieldCommentRequirement Required
+src/views/AdministratorView.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/AdministratorView.java:23:	fieldCommentRequirement Required
+src/views/AdministratorView.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/AdministratorView.java:24:	fieldCommentRequirement Required
+src/views/AdministratorView.java:27:	It is a good practice to call super() in a constructor
+src/views/AdministratorView.java:27:	publicMethodCommentRequirement Required
+src/views/AdministratorView.java:43:	Avoid variables with short names like e
+src/views/AdministratorView.java:43:	Parameter 'e' is not assigned and could be declared final
+src/views/AdministratorView.java:43:	publicMethodCommentRequirement Required
+src/views/AdministratorView.java:47:	Avoid variables with short names like e
+src/views/AdministratorView.java:47:	Parameter 'e' is not assigned and could be declared final
+src/views/AdministratorView.java:47:	publicMethodCommentRequirement Required
+src/views/AdministratorView.java:51:	publicMethodCommentRequirement Required
+src/views/AdministratorView.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/views/AdministratorView.java:55:	Parameter 'dataset' is not assigned and could be declared final
+src/views/AdministratorView.java:55:	publicMethodCommentRequirement Required
+src/views/AdministratorView.java:66:	publicMethodCommentRequirement Required
+src/views/CourierView.java:21:	Too many fields
+src/views/CourierView.java:21:	headerCommentRequirement Required
+src/views/CourierView.java:23:	fieldCommentRequirement Required
+src/views/CourierView.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:25:	Private field 'problem' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:25:	fieldCommentRequirement Required
+src/views/CourierView.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:26:	Private field 'table' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:26:	fieldCommentRequirement Required
+src/views/CourierView.java:27:	Avoid variables with short names like tm
+src/views/CourierView.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:27:	Private field 'tm' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:27:	fieldCommentRequirement Required
+src/views/CourierView.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:28:	Private field 'comboBox' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:28:	fieldCommentRequirement Required
+src/views/CourierView.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:29:	Private field 'btnSubmit' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:29:	fieldCommentRequirement Required
+src/views/CourierView.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:30:	Private field 'btnConn' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:30:	fieldCommentRequirement Required
+src/views/CourierView.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:31:	Private field 'btnMore' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:31:	fieldCommentRequirement Required
+src/views/CourierView.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:32:	Private field 'panel' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:32:	fieldCommentRequirement Required
+src/views/CourierView.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:33:	Private field 'card' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:33:	fieldCommentRequirement Required
+src/views/CourierView.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:34:	Private field 'tca' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:34:	fieldCommentRequirement Required
+src/views/CourierView.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:36:	Private field 'columnNames' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:36:	fieldCommentRequirement Required
+src/views/CourierView.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:37:	Perhaps 'scrollPane' could be replaced by a local variable.
+src/views/CourierView.java:37:	Private field 'scrollPane' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:37:	fieldCommentRequirement Required
+src/views/CourierView.java:38:	Avoid variables with short names like p
+src/views/CourierView.java:38:	Use explicit scoping instead of the default package private level
+src/views/CourierView.java:38:	fieldCommentRequirement Required
+src/views/CourierView.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:39:	Perhaps 'infopanel' could be replaced by a local variable.
+src/views/CourierView.java:39:	Private field 'infopanel' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:39:	fieldCommentRequirement Required
+src/views/CourierView.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:40:	Perhaps 'scrlpane' could be replaced by a local variable.
+src/views/CourierView.java:40:	Private field 'scrlpane' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:40:	fieldCommentRequirement Required
+src/views/CourierView.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CourierView.java:41:	Private field 'textPane' could be made final; it is only initialized in the declaration or constructor.
+src/views/CourierView.java:41:	fieldCommentRequirement Required
+src/views/CourierView.java:43:	It is a good practice to call super() in a constructor
+src/views/CourierView.java:43:	publicMethodCommentRequirement Required
+src/views/CourierView.java:49:	Avoid variables with short names like e
+src/views/CourierView.java:49:	Document empty method
+src/views/CourierView.java:49:	Parameter 'e' is not assigned and could be declared final
+src/views/CourierView.java:49:	publicMethodCommentRequirement Required
+src/views/CourierView.java:62:	Local variable 'dlcr' could be declared final
+src/views/CourierView.java:70:	Local variable 'tablepanel' could be declared final
+src/views/CourierView.java:71:	The String literal "[grow]" appears 4 times in this file; the first occurrence is on line 71
+src/views/CourierView.java:79:	Found 'DU'-anomaly for variable 'serialVersionUID' (lines '79'-'124').
+src/views/CourierView.java:79:	Found 'DU'-anomaly for variable 'serialVersionUID' (lines '79'-'124').
+src/views/CourierView.java:79:	Found 'DU'-anomaly for variable 'serialVersionUID' (lines '79'-'124').
+src/views/CourierView.java:79:	Found 'DU'-anomaly for variable 'serialVersionUID' (lines '79'-'124').
+src/views/CourierView.java:79:	fieldCommentRequirement Required
+src/views/CourierView.java:82:	Parameter 'column' is not assigned and could be declared final
+src/views/CourierView.java:82:	publicMethodCommentRequirement Required
+src/views/CourierView.java:83:	Potential violation of Law of Demeter (method chain calls)
+src/views/CourierView.java:87:	Parameter 'column' is not assigned and could be declared final
+src/views/CourierView.java:87:	Parameter 'row' is not assigned and could be declared final
+src/views/CourierView.java:87:	publicMethodCommentRequirement Required
+src/views/CourierView.java:103:	Avoid variables with short names like e
+src/views/CourierView.java:103:	publicMethodCommentRequirement Required
+src/views/CourierView.java:130:	Avoid variables with short names like e
+src/views/CourierView.java:130:	Parameter 'e' is not assigned and could be declared final
+src/views/CourierView.java:130:	publicMethodCommentRequirement Required
+src/views/CourierView.java:134:	Avoid variables with short names like e
+src/views/CourierView.java:134:	Parameter 'e' is not assigned and could be declared final
+src/views/CourierView.java:134:	publicMethodCommentRequirement Required
+src/views/CourierView.java:138:	Avoid variables with short names like e
+src/views/CourierView.java:138:	Parameter 'e' is not assigned and could be declared final
+src/views/CourierView.java:138:	publicMethodCommentRequirement Required
+src/views/CourierView.java:142:	publicMethodCommentRequirement Required
+src/views/CourierView.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/views/CourierView.java:146:	publicMethodCommentRequirement Required
+src/views/CourierView.java:150:	Avoid variables with short names like db
+src/views/CourierView.java:150:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/views/CourierView.java:150:	Parameter 'db' is not assigned and could be declared final
+src/views/CourierView.java:150:	publicMethodCommentRequirement Required
+src/views/CourierView.java:155:	Parameter 'value' is not assigned and could be declared final
+src/views/CourierView.java:155:	publicMethodCommentRequirement Required
+src/views/CourierView.java:160:	publicMethodCommentRequirement Required
+src/views/CourierView.java:164:	Avoid variables with short names like pa
+src/views/CourierView.java:164:	Parameter 'pa' is not assigned and could be declared final
+src/views/CourierView.java:164:	publicMethodCommentRequirement Required
+src/views/CourierView.java:170:	publicMethodCommentRequirement Required
+src/views/CourierView.java:174:	Parameter 'info' is not assigned and could be declared final
+src/views/CourierView.java:174:	publicMethodCommentRequirement Required
+src/views/CourierView.java:178:	publicMethodCommentRequirement Required
+src/views/CustomerView.java:21:	headerCommentRequirement Required
+src/views/CustomerView.java:23:	fieldCommentRequirement Required
+src/views/CustomerView.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CustomerView.java:25:	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/views/CustomerView.java:25:	fieldCommentRequirement Required
+src/views/CustomerView.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CustomerView.java:26:	Private field 'textArea' could be made final; it is only initialized in the declaration or constructor.
+src/views/CustomerView.java:26:	fieldCommentRequirement Required
+src/views/CustomerView.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CustomerView.java:27:	Private field 'btnSearch' could be made final; it is only initialized in the declaration or constructor.
+src/views/CustomerView.java:27:	fieldCommentRequirement Required
+src/views/CustomerView.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CustomerView.java:28:	Private field 'scrollPane' could be made final; it is only initialized in the declaration or constructor.
+src/views/CustomerView.java:28:	fieldCommentRequirement Required
+src/views/CustomerView.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CustomerView.java:29:	Private field 'lblInputATracking' could be made final; it is only initialized in the declaration or constructor.
+src/views/CustomerView.java:29:	fieldCommentRequirement Required
+src/views/CustomerView.java:30:	Avoid excessively long variable names like lblWrongFormatMust
+src/views/CustomerView.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/CustomerView.java:30:	Private field 'lblWrongFormatMust' could be made final; it is only initialized in the declaration or constructor.
+src/views/CustomerView.java:30:	fieldCommentRequirement Required
+src/views/CustomerView.java:32:	It is a good practice to call super() in a constructor
+src/views/CustomerView.java:32:	publicMethodCommentRequirement Required
+src/views/CustomerView.java:35:	Local variable 'lblNewLabel' could be declared final
+src/views/CustomerView.java:39:	Local variable 'lblTypeThe' could be declared final
+src/views/CustomerView.java:69:	Avoid variables with short names like e
+src/views/CustomerView.java:69:	Document empty method
+src/views/CustomerView.java:69:	Parameter 'e' is not assigned and could be declared final
+src/views/CustomerView.java:69:	publicMethodCommentRequirement Required
+src/views/CustomerView.java:76:	Avoid variables with short names like e
+src/views/CustomerView.java:76:	Parameter 'e' is not assigned and could be declared final
+src/views/CustomerView.java:76:	publicMethodCommentRequirement Required
+src/views/CustomerView.java:80:	publicMethodCommentRequirement Required
+src/views/CustomerView.java:84:	Parameter 'info' is not assigned and could be declared final
+src/views/CustomerView.java:84:	publicMethodCommentRequirement Required
+src/views/CustomerView.java:91:	Avoid variables with short names like i
+src/views/CustomerView.java:91:	Parameter 'i' is not assigned and could be declared final
+src/views/CustomerView.java:91:	publicMethodCommentRequirement Required
+src/views/CustomerView.java:92:	Avoid using Literals in Conditional Statements
+src/views/CustomerView.java:103:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:22:	This class has too many methods, consider refactoring it.
+src/views/EmployeeView.java:22:	Too many fields
+src/views/EmployeeView.java:22:	headerCommentRequirement Required
+src/views/EmployeeView.java:24:	fieldCommentRequirement Required
+src/views/EmployeeView.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:26:	Private field 'tabbedPane' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:26:	fieldCommentRequirement Required
+src/views/EmployeeView.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:28:	Private field 'txtName' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:28:	fieldCommentRequirement Required
+src/views/EmployeeView.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:29:	Private field 'txtSurname' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:29:	fieldCommentRequirement Required
+src/views/EmployeeView.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:30:	Private field 'txtStreet' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:30:	fieldCommentRequirement Required
+src/views/EmployeeView.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:31:	Private field 'txtPostCode' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:31:	fieldCommentRequirement Required
+src/views/EmployeeView.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:32:	Private field 'txtCountry' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:32:	fieldCommentRequirement Required
+src/views/EmployeeView.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:33:	Private field 'txtPhone' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:33:	fieldCommentRequirement Required
+src/views/EmployeeView.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:34:	Private field 'txtTracking' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:34:	fieldCommentRequirement Required
+src/views/EmployeeView.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:35:	Private field 'txtNumber' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:35:	fieldCommentRequirement Required
+src/views/EmployeeView.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:36:	Private field 'txtRegion' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:36:	fieldCommentRequirement Required
+src/views/EmployeeView.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:37:	Perhaps 'lblCity' could be replaced by a local variable.
+src/views/EmployeeView.java:37:	Private field 'lblCity' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:37:	fieldCommentRequirement Required
+src/views/EmployeeView.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:38:	Private field 'txtCity' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:38:	fieldCommentRequirement Required
+src/views/EmployeeView.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:39:	Perhaps 'lblRegion' could be replaced by a local variable.
+src/views/EmployeeView.java:39:	Private field 'lblRegion' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:39:	fieldCommentRequirement Required
+src/views/EmployeeView.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:40:	Private field 'chkFragile' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:40:	fieldCommentRequirement Required
+src/views/EmployeeView.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:41:	Private field 'txtComments' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:41:	fieldCommentRequirement Required
+src/views/EmployeeView.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:42:	Private field 'btnClear' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:42:	fieldCommentRequirement Required
+src/views/EmployeeView.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:43:	Private field 'btnSubmit' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:43:	fieldCommentRequirement Required
+src/views/EmployeeView.java:44:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:44:	Private field 'lblNewLabel' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:44:	fieldCommentRequirement Required
+src/views/EmployeeView.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:45:	Private field 'lblNewLabel2' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:45:	fieldCommentRequirement Required
+src/views/EmployeeView.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:46:	Private field 'lblNewLabel3' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:46:	fieldCommentRequirement Required
+src/views/EmployeeView.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:47:	Private field 'lblNewLabel4' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:47:	fieldCommentRequirement Required
+src/views/EmployeeView.java:48:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:48:	Private field 'lblNewLabel5' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:48:	fieldCommentRequirement Required
+src/views/EmployeeView.java:49:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:49:	Private field 'lblNewLabel6' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:49:	fieldCommentRequirement Required
+src/views/EmployeeView.java:50:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:50:	Private field 'lblTrackNum' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:50:	fieldCommentRequirement Required
+src/views/EmployeeView.java:52:	Avoid excessively long variable names like formattedTextField1
+src/views/EmployeeView.java:52:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:52:	Private field 'formattedTextField1' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:52:	fieldCommentRequirement Required
+src/views/EmployeeView.java:53:	Avoid excessively long variable names like formattedTextField_11
+src/views/EmployeeView.java:53:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:53:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'formattedTextField_11' is not final.
+src/views/EmployeeView.java:53:	Private field 'formattedTextField_11' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:53:	fieldCommentRequirement Required
+src/views/EmployeeView.java:54:	Avoid excessively long variable names like formattedTextField_21
+src/views/EmployeeView.java:54:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:54:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'formattedTextField_21' is not final.
+src/views/EmployeeView.java:54:	Private field 'formattedTextField_21' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:54:	fieldCommentRequirement Required
+src/views/EmployeeView.java:55:	Avoid excessively long variable names like formattedTextField_31
+src/views/EmployeeView.java:55:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:55:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'formattedTextField_31' is not final.
+src/views/EmployeeView.java:55:	Private field 'formattedTextField_31' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:55:	fieldCommentRequirement Required
+src/views/EmployeeView.java:56:	Avoid excessively long variable names like formattedTextField_41
+src/views/EmployeeView.java:56:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:56:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'formattedTextField_41' is not final.
+src/views/EmployeeView.java:56:	Private field 'formattedTextField_41' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:56:	fieldCommentRequirement Required
+src/views/EmployeeView.java:57:	Avoid excessively long variable names like formattedTextField_51
+src/views/EmployeeView.java:57:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:57:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'formattedTextField_51' is not final.
+src/views/EmployeeView.java:57:	Private field 'formattedTextField_51' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:57:	fieldCommentRequirement Required
+src/views/EmployeeView.java:58:	Avoid excessively long variable names like formattedTextField_61
+src/views/EmployeeView.java:58:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:58:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'formattedTextField_61' is not final.
+src/views/EmployeeView.java:58:	Private field 'formattedTextField_61' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:58:	fieldCommentRequirement Required
+src/views/EmployeeView.java:60:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:60:	Private field 'btnSearch' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:60:	fieldCommentRequirement Required
+src/views/EmployeeView.java:61:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:61:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'scrollPane_1' is not final.
+src/views/EmployeeView.java:61:	Private field 'scrollPane_1' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:61:	fieldCommentRequirement Required
+src/views/EmployeeView.java:62:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:62:	Perhaps 'table' could be replaced by a local variable.
+src/views/EmployeeView.java:62:	Private field 'table' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:62:	fieldCommentRequirement Required
+src/views/EmployeeView.java:63:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:63:	Private field 'lblSearchWarnig1' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:63:	fieldCommentRequirement Required
+src/views/EmployeeView.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:64:	Private field 'lblSearchWarnig2' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:64:	fieldCommentRequirement Required
+src/views/EmployeeView.java:65:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:65:	Private field 'lblSearchWarnig3' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:65:	fieldCommentRequirement Required
+src/views/EmployeeView.java:66:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:66:	Private field 'lblSearchWarnig4' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:66:	fieldCommentRequirement Required
+src/views/EmployeeView.java:67:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:67:	Private field 'lblSearchWarnig5' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:67:	fieldCommentRequirement Required
+src/views/EmployeeView.java:68:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:68:	Private field 'lblSearchWarnig6' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:68:	fieldCommentRequirement Required
+src/views/EmployeeView.java:69:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:69:	Private field 'lblSearchWarnig7' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:69:	fieldCommentRequirement Required
+src/views/EmployeeView.java:70:	Avoid variables with short names like tm
+src/views/EmployeeView.java:70:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:70:	Private field 'tm' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:70:	fieldCommentRequirement Required
+src/views/EmployeeView.java:71:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:71:	Private field 'tca' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:71:	fieldCommentRequirement Required
+src/views/EmployeeView.java:72:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:72:	Private field 'columnNames' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:72:	fieldCommentRequirement Required
+src/views/EmployeeView.java:75:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:75:	Private field 'btnExport' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:75:	fieldCommentRequirement Required
+src/views/EmployeeView.java:76:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:76:	Private field 'lblNotFound' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:76:	fieldCommentRequirement Required
+src/views/EmployeeView.java:77:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:77:	Private field 'btnSubmitTable' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:77:	fieldCommentRequirement Required
+src/views/EmployeeView.java:78:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/EmployeeView.java:78:	Private field 'lblSuccessful' could be made final; it is only initialized in the declaration or constructor.
+src/views/EmployeeView.java:78:	fieldCommentRequirement Required
+src/views/EmployeeView.java:80:	It is a good practice to call super() in a constructor
+src/views/EmployeeView.java:80:	The constructor with 0 parameters has an NCSS line count of 207
+src/views/EmployeeView.java:80:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:94:	Local variable 'panel' could be declared final
+src/views/EmployeeView.java:98:	Local variable 'lblName' could be declared final
+src/views/EmployeeView.java:112:	Local variable 'lblSurname' could be declared final
+src/views/EmployeeView.java:126:	Local variable 'lblAddress' could be declared final
+src/views/EmployeeView.java:134:	Local variable 'lblPostalCode' could be declared final
+src/views/EmployeeView.java:148:	Local variable 'lblCountry' could be declared final
+src/views/EmployeeView.java:162:	Local variable 'lblPhoneNumber' could be declared final
+src/views/EmployeeView.java:176:	Local variable 'lblFragile' could be declared final
+src/views/EmployeeView.java:190:	Local variable 'lblComments' could be declared final
+src/views/EmployeeView.java:194:	Local variable 'scrollPane' could be declared final
+src/views/EmployeeView.java:217:	Avoid variables with short names like e
+src/views/EmployeeView.java:217:	Document empty method
+src/views/EmployeeView.java:217:	Parameter 'e' is not assigned and could be declared final
+src/views/EmployeeView.java:217:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:225:	Document empty method
+src/views/EmployeeView.java:225:	Parameter 'arg0' is not assigned and could be declared final
+src/views/EmployeeView.java:225:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:231:	Local variable 'lblNumber' could be declared final
+src/views/EmployeeView.java:255:	Local variable 'panel_1' could be declared final
+src/views/EmployeeView.java:255:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'panel_1' is not final.
+src/views/EmployeeView.java:265:	Local variable 'lblName1' could be declared final
+src/views/EmployeeView.java:275:	Local variable 'lblSurname1' could be declared final
+src/views/EmployeeView.java:285:	Local variable 'lblAddress1' could be declared final
+src/views/EmployeeView.java:291:	Local variable 'lblPostalCode1' could be declared final
+src/views/EmployeeView.java:301:	Local variable 'lblCountry1' could be declared final
+src/views/EmployeeView.java:311:	Local variable 'lblPhoneNumber1' could be declared final
+src/views/EmployeeView.java:317:	Local variable 'lblTracking' could be declared final
+src/views/EmployeeView.java:338:	Found 'DU'-anomaly for variable 'serialVersionUID' (lines '338'-'397').
+src/views/EmployeeView.java:338:	Found 'DU'-anomaly for variable 'serialVersionUID' (lines '338'-'397').
+src/views/EmployeeView.java:338:	Found 'DU'-anomaly for variable 'serialVersionUID' (lines '338'-'397').
+src/views/EmployeeView.java:338:	Found 'DU'-anomaly for variable 'serialVersionUID' (lines '338'-'397').
+src/views/EmployeeView.java:338:	Found 'DU'-anomaly for variable 'serialVersionUID' (lines '338'-'397').
+src/views/EmployeeView.java:338:	fieldCommentRequirement Required
+src/views/EmployeeView.java:341:	Parameter 'column' is not assigned and could be declared final
+src/views/EmployeeView.java:341:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:342:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:346:	Parameter 'column' is not assigned and could be declared final
+src/views/EmployeeView.java:346:	Parameter 'row' is not assigned and could be declared final
+src/views/EmployeeView.java:346:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:350:	Avoid unnecessary if..then..else statements when returning booleans
+src/views/EmployeeView.java:350:	Avoid using Literals in Conditional Statements
+src/views/EmployeeView.java:351:	A method should have only one exit point, and that should be the last statement in the method
+src/views/EmployeeView.java:351:	Avoid using if...else statements without curly braces
+src/views/EmployeeView.java:353:	Avoid using if...else statements without curly braces
+src/views/EmployeeView.java:362:	fieldCommentRequirement Required
+src/views/EmployeeView.java:364:	A getX() method which returns a boolean should be named isX()
+src/views/EmployeeView.java:364:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:365:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:365:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:403:	Avoid variables with short names like e
+src/views/EmployeeView.java:403:	Parameter 'e' is not assigned and could be declared final
+src/views/EmployeeView.java:403:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:407:	Avoid variables with short names like e
+src/views/EmployeeView.java:407:	Parameter 'e' is not assigned and could be declared final
+src/views/EmployeeView.java:407:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:411:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:412:	Found 'DD'-anomaly for variable 'values' (lines '412'-'414').
+src/views/EmployeeView.java:414:	Found 'DD'-anomaly for variable 'values' (lines '414'-'415').
+src/views/EmployeeView.java:415:	Found 'DD'-anomaly for variable 'values' (lines '415'-'416').
+src/views/EmployeeView.java:416:	Found 'DD'-anomaly for variable 'values' (lines '416'-'417').
+src/views/EmployeeView.java:417:	Found 'DD'-anomaly for variable 'values' (lines '417'-'418').
+src/views/EmployeeView.java:418:	Found 'DD'-anomaly for variable 'values' (lines '418'-'419').
+src/views/EmployeeView.java:419:	Found 'DD'-anomaly for variable 'values' (lines '419'-'420').
+src/views/EmployeeView.java:420:	Found 'DD'-anomaly for variable 'values' (lines '420'-'421').
+src/views/EmployeeView.java:421:	Found 'DD'-anomaly for variable 'values' (lines '421'-'422').
+src/views/EmployeeView.java:422:	Found 'DD'-anomaly for variable 'values' (lines '422'-'424').
+src/views/EmployeeView.java:422:	Found 'DD'-anomaly for variable 'values' (lines '422'-'426').
+src/views/EmployeeView.java:424:	Avoid using if...else statements without curly braces
+src/views/EmployeeView.java:424:	Found 'DD'-anomaly for variable 'values' (lines '424'-'427').
+src/views/EmployeeView.java:426:	Avoid using if...else statements without curly braces
+src/views/EmployeeView.java:426:	Found 'DD'-anomaly for variable 'values' (lines '426'-'427').
+src/views/EmployeeView.java:432:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:455:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/views/EmployeeView.java:455:	Parameter 'warning' is not assigned and could be declared final
+src/views/EmployeeView.java:455:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:456:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:457:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:458:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:459:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:460:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:461:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:466:	Parameter 'track' is not assigned and could be declared final
+src/views/EmployeeView.java:466:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:479:	Avoid variables with short names like e
+src/views/EmployeeView.java:479:	Parameter 'e' is not assigned and could be declared final
+src/views/EmployeeView.java:479:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:487:	Avoid variables with short names like e
+src/views/EmployeeView.java:487:	Parameter 'e' is not assigned and could be declared final
+src/views/EmployeeView.java:487:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:491:	Avoid variables with short names like e
+src/views/EmployeeView.java:491:	Parameter 'e' is not assigned and could be declared final
+src/views/EmployeeView.java:491:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:495:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:496:	Found 'DD'-anomaly for variable 'values' (lines '496'-'498').
+src/views/EmployeeView.java:498:	Found 'DD'-anomaly for variable 'values' (lines '498'-'499').
+src/views/EmployeeView.java:499:	Found 'DD'-anomaly for variable 'values' (lines '499'-'500').
+src/views/EmployeeView.java:500:	Found 'DD'-anomaly for variable 'values' (lines '500'-'501').
+src/views/EmployeeView.java:501:	Found 'DD'-anomaly for variable 'values' (lines '501'-'502').
+src/views/EmployeeView.java:502:	Found 'DD'-anomaly for variable 'values' (lines '502'-'503').
+src/views/EmployeeView.java:503:	Found 'DD'-anomaly for variable 'values' (lines '503'-'504').
+src/views/EmployeeView.java:509:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:532:	Avoid variables with short names like db
+src/views/EmployeeView.java:532:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/views/EmployeeView.java:532:	Parameter 'db' is not assigned and could be declared final
+src/views/EmployeeView.java:532:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:540:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/views/EmployeeView.java:540:	Parameter 'warning' is not assigned and could be declared final
+src/views/EmployeeView.java:540:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:541:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:542:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:543:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:544:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:545:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:546:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:547:	Potential violation of Law of Demeter (method chain calls)
+src/views/EmployeeView.java:553:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:561:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:569:	Avoid using for statements without curly braces
+src/views/EmployeeView.java:575:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:582:	Avoid variables with short names like ok
+src/views/EmployeeView.java:582:	Parameter 'ok' is not assigned and could be declared final
+src/views/EmployeeView.java:582:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:588:	Avoid variables with short names like ok
+src/views/EmployeeView.java:588:	Parameter 'ok' is not assigned and could be declared final
+src/views/EmployeeView.java:588:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:590:	To be compliant to J2EE, a webapp should not use any thread.
+src/views/EmployeeView.java:590:	To be compliant to J2EE, a webapp should not use any thread.
+src/views/EmployeeView.java:591:	publicMethodCommentRequirement Required
+src/views/EmployeeView.java:595:	Avoid printStackTrace(); use a logger call instead.
+src/views/LoginView.java:19:	headerCommentRequirement Required
+src/views/LoginView.java:21:	fieldCommentRequirement Required
+src/views/LoginView.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/LoginView.java:23:	Private field 'txtPassword' could be made final; it is only initialized in the declaration or constructor.
+src/views/LoginView.java:23:	fieldCommentRequirement Required
+src/views/LoginView.java:24:	Avoid using redundant field initializer for 'txtpwd'
+src/views/LoginView.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/LoginView.java:24:	Perhaps 'txtpwd' could be replaced by a local variable.
+src/views/LoginView.java:24:	fieldCommentRequirement Required
+src/views/LoginView.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/LoginView.java:25:	Private field 'usertypes' could be made final; it is only initialized in the declaration or constructor.
+src/views/LoginView.java:25:	fieldCommentRequirement Required
+src/views/LoginView.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/LoginView.java:26:	fieldCommentRequirement Required
+src/views/LoginView.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/LoginView.java:27:	Private field 'comboBox' could be made final; it is only initialized in the declaration or constructor.
+src/views/LoginView.java:27:	fieldCommentRequirement Required
+src/views/LoginView.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/LoginView.java:28:	Private field 'txtUsername' could be made final; it is only initialized in the declaration or constructor.
+src/views/LoginView.java:28:	fieldCommentRequirement Required
+src/views/LoginView.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/LoginView.java:29:	Perhaps 'lblUsername' could be replaced by a local variable.
+src/views/LoginView.java:29:	Private field 'lblUsername' could be made final; it is only initialized in the declaration or constructor.
+src/views/LoginView.java:29:	fieldCommentRequirement Required
+src/views/LoginView.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/views/LoginView.java:30:	Perhaps 'lblPassword' could be replaced by a local variable.
+src/views/LoginView.java:30:	Private field 'lblPassword' could be made final; it is only initialized in the declaration or constructor.
+src/views/LoginView.java:30:	fieldCommentRequirement Required
+src/views/LoginView.java:32:	It is a good practice to call super() in a constructor
+src/views/LoginView.java:32:	publicMethodCommentRequirement Required
+src/views/LoginView.java:36:	Local variable 'image' could be declared final
+src/views/LoginView.java:38:	Local variable 'lblTransfersLogin' could be declared final
+src/views/LoginView.java:59:	Avoid variables with short names like e
+src/views/LoginView.java:59:	Parameter 'e' is not assigned and could be declared final
+src/views/LoginView.java:59:	publicMethodCommentRequirement Required
+src/views/LoginView.java:61:	Avoid variables with short names like s
+src/views/LoginView.java:61:	Local variable 's' could be declared final
+src/views/LoginView.java:62:	Position literals first in String comparisons
+src/views/LoginView.java:62:	Potential violation of Law of Demeter (object not created locally)
+src/views/LoginView.java:82:	Avoid variables with short names like e
+src/views/LoginView.java:82:	Document empty method
+src/views/LoginView.java:82:	Parameter 'e' is not assigned and could be declared final
+src/views/LoginView.java:82:	publicMethodCommentRequirement Required
+src/views/LoginView.java:89:	publicMethodCommentRequirement Required
+src/views/LoginView.java:90:	Potential violation of Law of Demeter (method chain calls)
+src/views/LoginView.java:93:	publicMethodCommentRequirement Required
+src/views/LoginView.java:97:	publicMethodCommentRequirement Required
+src/views/LoginView.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/views/LoginView.java:101:	publicMethodCommentRequirement Required
+src/views/LoginView.java:106:	publicMethodCommentRequirement Required

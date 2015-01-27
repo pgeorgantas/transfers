@@ -1,0 +1,148 @@
+package controllers;
+
+import java.awt.Window.Type;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Observable;
+import java.util.Observer;
+
+import javax.swing.JFrame;
+import javax.swing.JTable;
+
+import models.EmployeeModel;
+import additional.TableColumnAdjuster;
+import views.EmployeeView;
+
+public class EmployeeController {
+
+	private EmployeeView empView;
+	private EmployeeModel empModel;
+	private JFrame frame;
+	
+	public EmployeeController(EmployeeView views ,EmployeeModel model) {
+		empView = views;
+		empView.btnClearListener(new BtnClearListener());
+		empView.btnSubmitListener(new BtnSubmitListener());
+		empView.btnSearchListener(new BtnSearchListener());
+		empView.btnExportListener(new BtnExportListener());
+		empView.btnSubmitTableListener(new BtnSubmitTableListener());
+		
+		empModel = model;
+		empModel.addPanel1WaringObserver(new Panel1WarningObserver());
+		empModel.addPanel2WaringObserver(new Panel2WarningObserver());
+		empModel.addPanel2SearchObserver(new Panel2SearchObserver());
+		empModel.addPanel2FoundObserver(new Panel2FoundObserver());
+		
+	}
+	
+	class BtnClearListener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			/*
+			 * Panel1 Clear
+			 */
+			
+			empView.clearTextBoxesPacket();
+
+		}
+	}
+	
+	class BtnSubmitListener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			/*
+			 * Panel1 Submit
+			 */
+			
+			empView.setTrackingNumb(empModel.Panel1Submit(empView.getTextBoxesPacket()));
+			
+		}
+		
+	}
+	
+	class BtnSearchListener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			/*
+			 * Panel2 Search
+			 */
+			
+			empView.clearTable();
+			empModel.Panel2Search(empView.getTextBoxesSearch());
+			empModel.getTableRow(empView.retTable());
+
+		}
+	}
+	
+	class BtnClear2Listener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			/*
+			 * Panel2 Clear
+			 */
+			empView.clearTextBoxesSearch();
+
+		}
+	}
+	
+	class BtnExportListener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			/*
+			 * Panel2 Export
+			 */
+			frame = new JFrame("Demata");
+			frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+			JTable table = new JTable(empView.retTable());
+			TableColumnAdjuster tca = new TableColumnAdjuster(table);
+			frame.setType(Type.POPUP);
+			frame.add(table);
+			tca.adjustColumns();
+			frame.pack();
+			frame.setVisible(true);
+
+		}
+	}
+	
+	class BtnSubmitTableListener implements  ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			/*
+			 * Panels 2 Submit
+			 */
+			
+			empView.submmited(empModel.Panel2Submit(empView.retTable()));
+			
+		}
+	}
+	
+	
+	class Panel1WarningObserver implements Observer {
+		public void update(Observable obs, Object arg) {
+			empView.displayWarningsP1(empModel.warningP1.get());
+		}
+	}
+	
+	class Panel2WarningObserver implements Observer {
+		public void update(Observable obs, Object arg) {
+			empView.displayWarningsP2(empModel.warningP2.get());
+		}
+	}
+	
+	class Panel2SearchObserver implements Observer {
+		public void update(Observable obs, Object arg) {
+			empView.updateStatus(empModel.tbrP2.get());
+		}
+	}
+	
+	class Panel2FoundObserver implements Observer {
+		public void update(Observable obs, Object arg) {
+			empView.notFound(empModel.foundP2.get());
+		}
+	}
+	
+	
+	public void clear() {
+		empView.clearTable();
+		empView.clearTextBoxesPacket();
+		empView.clearTextBoxesSearch();
+		empView.clearAll();
+		if (frame != null)
+			frame.dispose();
+	}
+	
+}

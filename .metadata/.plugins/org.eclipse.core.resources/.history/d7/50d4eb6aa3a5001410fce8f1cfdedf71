@@ -1,0 +1,28 @@
+package controllers;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Observable;
+import java.util.Observer;
+
+import additional.DatabaseUtility;
+import views.LoginView;
+
+public class LoginController {
+	
+	private LoginView LoginView;
+	private DatabaseUtility dbLogin;
+	
+	public LoginController(LoginView LoginView) {
+		this.LoginView = LoginView;
+	}
+	
+	public String changePanel(){
+		return LoginView.getUserType();
+	}
+	class btnSignInActionPerformed implements  ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			LoginView.submitted(dbLogin.Login(usr));
+			
+		}
+	}
+}
